@@ -8,6 +8,8 @@
 ## Kısaltmalar ve birimler
 - N (newton), mm, cm: kaynaktaki gibi.
 - Formüller (E = F × L/d; E = F x L/d) kaynaktaki yazımıyla aynen kalır.
+- Kısaltmalar (bölüm 1): SED = stabil–elastik–dinamik osteosentez; IMF = intermaksiller fiksasyon. İlk geçişte açılım + kısaltma parantezde.
+- Sayı ile birim aynı satırda kalır (bölünmez boşluk): 60 μm.
 - Ondalık ayırıcı virgül: 3.3 mm → 3,3 mm. Aralıklar en dash ile: 16–20 mm.
 
 ## Kaynak gösterme
@@ -15,10 +17,12 @@
 - Cümle içindeki yazar adlarında "and" → "ve": "Loddé ve Champy (1976)".
 - Yazar satırı (bölüm başlığı altı) kaynaktaki gibi kalır.
 - Kaynakça girdileri çevrilmez; altlarındaki italik yazar yorumları çevrilir.
+- Atıf içindeki açıklayıcı sözcükler çevrilir, atfın kendisi aynen kalır: "see Chapter 27" → "bkz. Bölüm 27"; "personal communication" → "kişisel görüşme"; "Champy in Huckel, 1996 pp. 47–48" aynen.
 
 ## Şekiller
 - "Fig. 1.1" → "Şekil 1.1" (metin içinde kalın: **Şekil 1.1**).
 - Altyazı başlığı kalın, açıklama normal.
+- "see also Fig. 7.19" → "ayrıca bkz. Şekil 7.19"; "Figs. 1.4, 2.1, and 21.1" → "Şekil 1.4, 2.1 ve 21.1".
 - Resim içindeki yazılar (raster) çevrilmez.
 
 ## İlk geçiş kuralı
@@ -34,7 +38,15 @@
 - Masticatory Stress Distribution in the Mandible → Mandibulada Çiğneme Streslerinin Dağılımı
 - Definition of an Ideal Osteosynthesis Line on the Mandible → Mandibulada İdeal Osteosentez Hattının Tanımı
 - Other Therapeutic Applications → Diğer Tedavi Uygulamaları
+- Discussion: → Tartışma: (satır içi kalın)
+- Stable / Elastic / Dynamic (ara başlık) → Stabil / Elastik / Dinamik
+- Biomechanics and Principles of Surgical Repair in the Midface and Cranium by Microplates or Miniplates (Traumatology and Deformities) → Orta Yüz ve Kranyumda Mikroplak veya Miniplaklarla Cerrahi Onarımın Biyomekaniği ve İlkeleri (Travmatoloji ve Deformiteler)
 
 ## Kaynak hataları ve notlar
 - Bölüm 1, s. 3: "Groupe dEtudes" → "Groupe d’Etudes [kaynakta: dEtudes]".
 - Bölüm 1: "Boyoud and Paty, 1975" (s. 4) ile "Boyoud and Patty, 1975" (s. 4) — kaynakta iki yazım; atıf olduğu için değiştirilmedi.
+- Bölüm 1, s. 6: kaynakta hem "Dalsanto" hem "Dal Santo", hem "Segard" hem "Ségard" yazımı var — atıflarda değiştirilmedi.
+
+## Kullanım kaydı
+- 2026-11-11: başlangıç oturum %38, haftalık %7; Bölüm 1 tamamlandı (kitap s. 1–7, 7 sayfa; s. 1–5 önceki çalışmada çevrilmişti).
+- Durum: Bölüm 1 bitti. Sonraki: Bölüm 2 (kitap s. 8, PDF s. 23).
