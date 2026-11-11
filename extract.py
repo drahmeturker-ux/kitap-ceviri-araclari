@@ -46,7 +46,7 @@ def clean(t):
     t = re.sub(r'(\w)- (?=[a-z])', r'\1', t)       # hyphenated line breaks inside captions
     t = re.sub(r'(\w)-\*\* \*\*(\w)', r'\1\2', t)   # hyphen break inside bold
     t = t.replace('** **', ' ')                     # adjacent bold runs across lines
-    t = re.sub(r'(\d) ?μ ?m\b', r'\1 μm', t)
+    t = re.sub(r'(\d)-? ?([μµ]) ?m\b', r'\1 \2m', t)
     t = re.sub(r'\(\s+\*\*', '(**', t); t = re.sub(r'\*\*\s+\)', '**)', t)
     return t
 

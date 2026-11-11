@@ -39,7 +39,7 @@ def baseline(line):
 
 def esc(t):
     t = t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-    t = re.sub(r'(\d) (?=(mm|cm|μm|N|%)\b)', '\\1\u00a0', t)   # keep number and unit together
+    t = re.sub(r'(\d) (?=(mm|cm|μm|µm|N|%)\b)', '\\1\u00a0', t)   # keep number and unit together
     return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
 
 def strip_text(writer, page):
