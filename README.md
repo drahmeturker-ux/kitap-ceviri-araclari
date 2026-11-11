@@ -8,6 +8,9 @@ Helper scripts for the `translate-book` skill (two-column medical textbooks, PDF
 | `checks.py layout.json tr.json [glossary.json]` | Compares source and translation per item: numbers (decimal comma allowed), abbreviations kept / none invented, parenthetical citations unchanged, bold `Fig.` markers, glossary targets used; lists `[kaynakta: …]` notes. Exit code 1 on problems. |
 | `layout.py book.pdf layout.json tr.json out.pdf` | Removes the source text from the page content streams and draws the translation into the original column frames (largest font scale that fits each page), captions in their boxes, running heads and chapter title. |
 
+## Glossaries (`sozlukler/`)
+One English → Turkish term list per book: `sozlukler/<Book>_sozluk.json` (`{"book": …, "terms": [{source, target, category, aliases, notes}]}`). The skill reads the book's glossary from here at the start of a session and updates it at the end. Terms marked `uncertain` in `notes` still need review.
+
 ## Translation file (`tr.json`)
 - body items: `"i001": "text with **bold** markers"`
 - captions: `"p16_cap1": ["bold title", "rest of caption"]`
@@ -21,4 +24,4 @@ Helper scripts for the `translate-book` skill (two-column medical textbooks, PDF
 
 Requirements: `pdfplumber`, `pypdf`, `reportlab`, fonts Liberation Serif + Carlito.
 
-No book content (PDFs, translations, glossaries) belongs in this repository.
+Book PDFs and translated text do not belong in this repository (it is public); only scripts and term glossaries.
