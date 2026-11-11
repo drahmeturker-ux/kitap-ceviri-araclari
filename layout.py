@@ -39,6 +39,7 @@ def baseline(line):
 
 def esc(t):
     t = t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    t = re.sub(r'(\d) (?=(mm|cm|μm|N|%)\b)', '\\1\u00a0', t)   # keep number and unit together
     return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
 
 def strip_text(writer, page):
@@ -99,6 +100,9 @@ def styles(scale):
         'lic': ParagraphStyle('lic', parent=base, leftIndent=BULLET_INDENT),
         'h2': ParagraphStyle('h2', fontName='Sans-B', fontSize=11.9 * s, leading=14 * s, textColor=RED, alignment=TA_LEFT),
         'h3': ParagraphStyle('h3', fontName='Sans-B', fontSize=9.9 * s, leading=12 * s, alignment=TA_LEFT),
+        'h4': ParagraphStyle('h4', fontName='Sans-B', fontSize=9.0 * s, leading=PITCH * s, alignment=TA_LEFT),
+        'li2': ParagraphStyle('li2', parent=base, leftIndent=2 * BULLET_INDENT, bulletIndent=BULLET_INDENT, bulletFontName='Serif', bulletFontSize=BODY_SIZE * s),
+        'li2c': ParagraphStyle('li2c', parent=base, leftIndent=2 * BULLET_INDENT),
     }
 
 def flowables(frame, L, T, scale, parts):
@@ -112,8 +116,9 @@ def flowables(frame, L, T, scale, parts):
         k = it['kind']
         if k == 'p': style = st['pi'] if (it['indent'] and first) else st['p']
         elif k == 'li': style = st['li'] if first else st['lic']
+        elif k == 'li2': style = st['li2'] if first else st['li2c']
         else: style = st[k]
-        para = Paragraph(esc(text), style, bulletText='•' if (k == 'li' and first) else None)
+        para = Paragraph(esc(text), style, bulletText=('•' if k == 'li' else '–') if (k in ('li', 'li2') and first) else None)
         para._gap = it['segs'][si]['gap'] * scale if first else 0
         para._kind = k
         para.spaceBefore = para._gap
@@ -126,7 +131,7 @@ def fill(frames, fl, c):
     while fl and fi < len(frames):
         fr = frames[fi]
         f = fl[0]
-        if f._kind in ('h2', 'h3') and len(fl) > 1:
+        if f._kind in ('h2', 'h3', 'h4') and len(fl) > 1:
             need = f.wrap(fr._aW, fr._aH)[1] + f._gap + 3 * PITCH
             if fr._y - fr._y1p < need and not fr._atTop:
                 fi += 1; continue

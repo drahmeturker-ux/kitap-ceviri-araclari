@@ -20,6 +20,7 @@ def ROLE(w, top):
     if 'Black' in f and s > 14: return 'h1'
     if 'Black' in f and 11 < s < 13: return 'h2'
     if 'LightBold' in f and 9.5 < s < 10.5: return 'h3'
+    if 'LightBold' in f and 8.8 < s < 9.4: return 'h4'   # run-in subheads (Stable / Elastic ...)
     if 'LightItalic' in f and 8 < s < 8.6: return 'author'
     if s < 7.8: return 'caption'
     return 'body'
@@ -43,6 +44,9 @@ def clean(t):
     t = re.sub(r'\s*’\s*', '’', t)                # split apostrophes
     t = re.sub(r'(\w) ([äöüÄÖÜéèàç]) (\w)', r'\1\2\3', t)   # accented glyphs drawn separately
     t = re.sub(r'(\w)- (?=[a-z])', r'\1', t)       # hyphenated line breaks inside captions
+    t = re.sub(r'(\w)-\*\* \*\*(\w)', r'\1\2', t)   # hyphen break inside bold
+    t = t.replace('** **', ' ')                     # adjacent bold runs across lines
+    t = re.sub(r'(\d) ?μ ?m\b', r'\1 μm', t)
     t = re.sub(r'\(\s+\*\*', '(**', t); t = re.sub(r'\*\*\s+\)', '**)', t)
     return t
 
@@ -85,13 +89,15 @@ def main(pdf_path, first, last, out):
                 blocks.append({'words': [w], 'top': w['top'], 'bottom': w['bottom'], 'x0': w['x0'], 'x1': w['x1']})
         for i, b in enumerate(blocks):
             ws = sorted(b['words'], key=lambda w: (round(w['top']), w['x0']))
-            bold = ' '.join(w['text'] for w in ws if BOLD(w['fontname']))
-            rest = ' '.join(w['text'] for w in ws if not BOLD(w['fontname']))
+            n = 0
+            while n < len(ws) and BOLD(ws[n]['fontname']): n += 1
+            bold = ' '.join(w['text'] for w in ws[:n])
+            rest = ' '.join(('**' + w['text'] + '**') if BOLD(w['fontname']) else w['text'] for w in ws[n:])
             cid = f'p{pn}_cap{i+1}'
             info['captions'].append({'id': cid, 'x0': b['x0'], 'x1': b['x1'], 'top': b['top'], 'bottom': b['bottom'],
                                      'size': ws[0]['size'], 'bold': clean(bold), 'rest': clean(rest)})
         # body + h2/h3 lines per column
-        bw = [w for w in words if w['role'] in ('body', 'h2', 'h3')]
+        bw = [w for w in words if w['role'] in ('body', 'h2', 'h3', 'h4')]
         cols = [[w for w in bw if w['x0'] < mid], [w for w in bw if w['x0'] >= mid]]
         for ci, cwords in enumerate(cols):
             if not cwords: continue
@@ -130,11 +136,17 @@ def main(pdf_path, first, last, out):
                 bullet = ws[0]['text'] in ('•', '·') or 'Symbol' in ws[0]['fontname']
                 role = l['role']
                 start = None
-                if role in ('h2', 'h3'):
+                dash = ws[0]['text'] == '–' and len(ws) > 1
+                if role in ('h2', 'h3', 'h4'):
                     if cur and cur['kind'] == role and prev is not None and prev['role'] == role and l['top'] - prev['bottom'] < 6:
                         start = None
                     else:
                         start = {'kind': role, 'indent': False}
+                elif dash and 9 < indent < 14:
+                    text = text.split(' ', 1)[1]
+                    start = {'kind': 'li2', 'indent': False}
+                elif cur and cur['kind'] == 'li2' and 20 < indent < 26:
+                    start = None
                 elif bullet:
                     text = text.split(' ', 1)[1] if ' ' in text else ''
                     start = {'kind': 'li', 'indent': False}
@@ -143,7 +155,7 @@ def main(pdf_path, first, last, out):
                         start = {'kind': 'lic', 'indent': False}
                 elif 8 < indent < 14:
                     start = {'kind': 'p', 'indent': True}
-                elif cur is None or cur['kind'] in ('h2', 'h3', 'li', 'lic', 'h1'):
+                elif cur is None or cur['kind'] in ('h2', 'h3', 'h4', 'li', 'lic', 'li2', 'h1'):
                     start = {'kind': 'p', 'indent': False}
                 elif gap > 6 and not new_frame:
                     start = {'kind': 'p', 'indent': False}
