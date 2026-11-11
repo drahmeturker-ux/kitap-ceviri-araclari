@@ -513,6 +513,186 @@
    "target": "lateral pterigoid",
    "category": "anatomy",
    "notes": ""
+  },
+  {
+   "source": "ascending branch of the mandible",
+   "target": "mandibulanın çıkan dalı",
+   "category": "anatomy",
+   "notes": "uncertain — ilk geçişte (ascending branch); ramus"
+  },
+  {
+   "source": "condylar region",
+   "target": "kondil bölgesi",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "condylar neck",
+   "target": "kondil boynu",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "sigmoid notch",
+   "target": "sigmoid çentik",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "subcondylar fracture",
+   "target": "subkondiler kırık",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "lag screw",
+   "target": "kompresyon vidası",
+   "category": "implant",
+   "notes": "uncertain — ilk geçişte (lag screw)"
+  },
+  {
+   "source": "trapezoidal plate",
+   "target": "trapezoid plak",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "lowering muscles",
+   "target": "çeneyi indiren kaslar",
+   "category": "anatomy",
+   "notes": "uncertain — ilk geçişte (lowering muscles)"
+  },
+  {
+   "source": "temporomandibular joint",
+   "target": "temporomandibular eklem",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "intra-articular force",
+   "target": "eklem içi kuvvet",
+   "category": "biomechanics",
+   "notes": ""
+  },
+  {
+   "source": "sublingual hematoma",
+   "target": "sublingual hematom",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "pathognomonic",
+   "target": "patognomonik",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "occlusal projection",
+   "target": "oklüzal projeksiyon",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "panoramic radiograph",
+   "target": "panoramik radyografi",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "woven bone",
+   "target": "örgülü kemik",
+   "category": "medical",
+   "notes": "uncertain — ilk geçişte (woven bone)"
+  },
+  {
+   "source": "lamellar bone",
+   "target": "lamellar kemik",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "cutting cone",
+   "target": "kesici koni",
+   "category": "medical",
+   "notes": "uncertain — ilk geçişte (cutting cone)"
+  },
+  {
+   "source": "closing cone",
+   "target": "kapatıcı koni",
+   "category": "medical",
+   "notes": "uncertain — ilk geçişte (closing cone)"
+  },
+  {
+   "source": "haversian canal",
+   "target": "Havers kanalı",
+   "category": "anatomy",
+   "notes": "haversian remodeling → Havers yeniden yapılanması"
+  },
+  {
+   "source": "Volkmann canals",
+   "target": "Volkmann kanalları",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "Howship lacunae",
+   "target": "Howship lakünleri",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "contact healing",
+   "target": "temas iyileşmesi",
+   "category": "medical",
+   "notes": "ilk geçişte (contact healing)"
+  },
+  {
+   "source": "gap healing",
+   "target": "aralık iyileşmesi",
+   "category": "medical",
+   "notes": "ilk geçişte (gap healing)"
+  },
+  {
+   "source": "indirect bone healing",
+   "target": "dolaylı kemik iyileşmesi",
+   "category": "medical",
+   "notes": "direct → doğrudan"
+  },
+  {
+   "source": "callus",
+   "target": "kallus",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "fibrocartilage",
+   "target": "fibröz kıkırdak",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "granulation tissue",
+   "target": "granülasyon dokusu",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "pluripotential precursor cells",
+   "target": "pluripotent öncül hücreler",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "mechanical rest",
+   "target": "mekanik istirahat",
+   "category": "biomechanics",
+   "notes": ""
+  },
+  {
+   "source": "nonunion",
+   "target": "kaynamama",
+   "category": "medical",
+   "notes": ""
   }
  ]
 }
