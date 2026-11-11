@@ -64,6 +64,8 @@
 - Bölüm 19: "Orta Yüz Kırıkları"; tek sayfa başlığı "Le Fort III Kırıkları"; Fractures of the Zygoma → Zigoma Kırıkları; Le Fort I/II/III Fractures → Le Fort I/II/III Kırıkları
 - MRI: ilk geçişte "manyetik rezonans görüntüleme (MRI)".
 - Bölüm 20: "Naso-etmoid Kırıklar"; tek sayfa başlığı "Tedavi"; Clinical Examination → Klinik Muayene; Radiological Examination → Radyolojik İnceleme; Treatment → Tedavi; Surgical Exposure → Cerrahi Açılım; Reduction and Stabilization → Redüksiyon ve Stabilizasyon; Bone Grafting → Kemik Greftlemesi; Detached Canthus → Ayrılmış Kantus
+- Bölüm 21: "Panfasiyal Kırıklar: Düzenli Bir Tedavinin Planlanması"; tek sayfa başlığı "Tedavi Planlaması"; Diagnosis → Tanı
+- Bölüm 22: "Mandibula Osteotomileri"; tek sayfa başlıkları "Vertikal Ramus Osteotomisi" / "Anterior Subapikal Segmental Osteotomi" / "Genioplastiler ve Orta Hat Simfiz Osteotomileri"
 - Altyazılardaki "adapted from …" → "(uyarlanan kaynak: …"; kaynak künyesi aynen.
 - Altyazılarda "Inset:" → "İç resim:".
 - CT: ilk geçişte "bilgisayarlı tomografi (CT)".
@@ -85,6 +87,10 @@
 - Bölüm 13, s. 72: metinde Şekil 13.11 ve 13.12 atıfları yer değiştirmiş (iki miniplak = 13.12, trokar = 13.11); "[kaynakta: Fig. …]" notuyla düzeltildi.
 - Bölüm 18, s. 93: kaynakta sağ sütunun ilk satırı ("ramus in a downward direction. The extension can be") resmin altında kalmış, basılı sayfada görünmüyor; çeviride metin resmin altındaki sütuna akıtıldı. Atıfta "Neff at al." yazımı aynen bırakıldı.
 - Bölüm 20, s. 102: koronal flep için "(see Fig. 5.22)" → "(bkz. Şekil 5.24 [kaynakta: Fig. 5.22])" (5.22 üst kapak blefaroplastisi, 5.24 koronal yaklaşım).
+- Bölüm 21, s. 107: "intra-orbital rims" → "infraorbital [kaynakta: intra-orbital]". s. 108: "(see Figs. 20.4, 20.6, 20.7)" içerikle uyuşmuyor (kantal bağlama şekilleri 20.9/20.11/20.12), emin olunamadığı için değiştirilmedi.
+- Bölüm 22, s. 115: "an osteotomy is used to complete the midline split" → "osteotomla [kaynakta: osteotomy]" (alet kastediliyor).
+- Bölüm 26, s. 136: "(Sailer and Landolf, 1991)" → "Landolt [kaynakta: Landolf]"; "coronal suture is closed" → "koronal insizyon [kaynakta: coronal suture]".
+- Bölüm 27: "en grove technique" anlamı belirsiz, olduğu gibi bırakıldı; "countering pen" (muhtemelen contouring) parantezde İngilizcesiyle.
 - Latince/Fransızca terimler (restitutio ad integrum, soudure autogène) aynen kalır, gerekirse parantezde Türkçesi.
 
 ## Kullanım kaydı
@@ -106,4 +112,11 @@
 - Bölüm 18 (s. 93–94) tamamlandı.
 - Bölüm 19 (s. 95–98) tamamlandı.
 - Bölüm 20 (s. 99–103) tamamlandı.
-- Durum: Bölüm 1–20 bitti. Sonraki: Bölüm 21 "Panfacial Fractures" (kitap s. 104, PDF s. 119).
+- Bölüm 21 (s. 104–108) tamamlandı.
+- Bölüm 22 (s. 109–115) tamamlandı.
+- Bölüm 24 başlığı: "Orthognathic Surgery Distance Screws" → "Ortognatik Cerrahide Mesafe Vidaları"
+- Yazım: mandibular / maksillomandibular ("-mandibuler" değil)
+- Bölüm 26: "glabela" (kaynak yazımı) → glabella; magnifying loops → büyüteç gözlük
+- Bölüm 27: PDF s. 152’deki küçük büyük harf D/L ve Mw alt simgesi küçük punto olduğundan caption sanılıyor; caption’lar boş bırakılıp harfler gövde metnine yazıldı. Uzun bölüm başlığında çift sayfa üst bilgisi "…" ile kısaltıldı.
+- Terim: thread → vida dişi, thread pitch → diş adımı ("yiv" değil); drill-free screw → delme gerektirmeyen vida
+- Durum: Bölüm 1–28 bitti. Sonraki: Bölüm 29 (kitap s. 144, PDF s. 159–174).
