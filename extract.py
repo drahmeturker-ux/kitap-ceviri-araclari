@@ -115,6 +115,12 @@ def main(pdf_path, first, last, out):
             body = [l for l in L if l['role'] == 'body']
             cx0 = min(l['x0'] for l in body) if body else min(l['x0'] for l in L)
             cx1 = max(l['x1'] for l in body) if body else max(l['x1'] for l in L)
+            # lines hidden under an image in the source (layout error) join the next visible run
+            imgs = page.images
+            def covered(l):
+                return any(im['x0'] <= l['x0'] + 3 and im['x1'] >= l['x1'] - 3 and im['top'] <= l['top'] + 3 and im['bottom'] >= l['bottom'] - 3 for im in imgs)
+            hidden = [l for l in L if covered(l)]
+            L = [l for l in L if not covered(l)] or L
             # frames = vertical runs
             run = [L[0]]
             def close(run):
@@ -126,6 +132,10 @@ def main(pdf_path, first, last, out):
                 else:
                     run.append(l)
             close(run)
+            for h in hidden:
+                nxt = next((l for l in L if l['top'] > h['top']), L[-1])
+                h['frame'] = nxt['frame']
+            L = sorted(L + [h for h in hidden if h not in L], key=lambda l: (l['frame'], l['top']))
             prev = None
             for l in L:
                 ws = l['words']
