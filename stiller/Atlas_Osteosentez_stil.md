@@ -41,12 +41,20 @@
 - Discussion: → Tartışma: (satır içi kalın)
 - Stable / Elastic / Dynamic (ara başlık) → Stabil / Elastik / Dinamik
 - Biomechanics and Principles of Surgical Repair in the Midface and Cranium by Microplates or Miniplates (Traumatology and Deformities) → Orta Yüz ve Kranyumda Mikroplak veya Miniplaklarla Cerrahi Onarımın Biyomekaniği ve İlkeleri (Travmatoloji ve Deformiteler)
+- Bölüm 2: "Kondil Bölgesi Kırıklarının Biyomekaniği ve Onarım İlkeleri" (sayfa başlığı da)
+- Bölüm 3: "Sublingual Hematom: Mandibula Kırığının Patognomonik Bulgusu" (sayfa başlığı da)
+- Bölüm 4: "Kemik Onarımı ve Kırık İyileşmesi"; tek sayfa başlığı "Kırık İyileşmesi"
+- Structure of Facial Bone → Yüz Kemiğinin Yapısı; Fracture Healing → Kırık İyileşmesi; Indirect Bone Healing (Secondary Osseous and Soft-Tissue Healing) → Dolaylı Kemik İyileşmesi (Sekonder Kemik ve Yumuşak Doku İyileşmesi); Direct Bone Healing (Primary Osseous Healing) → Doğrudan Kemik İyileşmesi (Primer Kemik İyileşmesi); Pseudoarthrosis → Psödoartroz; Craniomaxillofacial Bone Healing → Kraniyomaksillofasiyal Kemik İyileşmesi
 
 ## Kaynak hataları ve notlar
 - Bölüm 1, s. 3: "Groupe dEtudes" → "Groupe d’Etudes [kaynakta: dEtudes]".
 - Bölüm 1: "Boyoud and Paty, 1975" (s. 4) ile "Boyoud and Patty, 1975" (s. 4) — kaynakta iki yazım; atıf olduğu için değiştirilmedi.
 - Bölüm 1, s. 6: kaynakta hem "Dalsanto" hem "Dal Santo", hem "Segard" hem "Ségard" yazımı var — atıflarda değiştirilmedi.
+- Bölüm 3 başlığında kaynakta "Pathognomic" yazım hatası (metinde "pathognomonic"); Türkçede "patognomonik" doğru çıktığı için not eklenmedi.
+- Bölüm 4: kaynak mikro işaretini "µ" (U+00B5) kullanıyor, Bölüm 1 "μ" (U+03BC); her bölümde kaynaktaki karakter korunur.
+- Latince/Fransızca terimler (restitutio ad integrum, soudure autogène) aynen kalır, gerekirse parantezde Türkçesi.
 
 ## Kullanım kaydı
 - 2026-11-11: başlangıç oturum %38, haftalık %7; Bölüm 1 tamamlandı (kitap s. 1–7, 7 sayfa; s. 1–5 önceki çalışmada çevrilmişti).
-- Durum: Bölüm 1 bitti. Sonraki: Bölüm 2 (kitap s. 8, PDF s. 23).
+- 2026-11-11 (aynı oturum): oturum %38 → %50 arası Bölüm 1 s. 6–7, Bölüm 2 (s. 8–9), Bölüm 3 (s. 10–11) ve repo işleri (~6 sayfa + repo ≈ %12); ardından Bölüm 4 (s. 12–18, 7 sayfa). Uzun sohbet nedeniyle sayfa başı maliyet yüksekti.
+- Durum: Bölüm 1–4 bitti. Sonraki: Bölüm 5 "Surgical Approaches" (kitap s. 19–31, PDF s. 34–46, 13 sayfa).
