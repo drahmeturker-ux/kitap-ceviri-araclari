@@ -1149,6 +1149,390 @@
    "target": "Ivy ilmekleri",
    "category": "procedure",
    "notes": "Ernst ligatures → Ernst ligatürleri"
+  },
+  {
+   "source": "condylar base",
+   "target": "kondil tabanı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "open reduction",
+   "target": "açık redüksiyon",
+   "category": "procedure",
+   "notes": "closed treatment → kapalı tedavi"
+  },
+  {
+   "source": "function-stable osteosynthesis",
+   "target": "fonksiyonel stabil osteosentez",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "diacapitular fracture",
+   "target": "diakapitüler kırık",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "orthopantomography",
+   "target": "ortopantomografi",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "Mandibular Function Impairment Questionnaire",
+   "target": "Mandibular Fonksiyon Bozukluğu Anketi",
+   "category": "medical",
+   "notes": "kısaltma MFIQ"
+  },
+  {
+   "source": "retromandibular approach",
+   "target": "retromandibular yaklaşım",
+   "category": "procedure",
+   "notes": "preauricular / retroauricular → preauriküler / retroauriküler"
+  },
+  {
+   "source": "anchor washer",
+   "target": "ankraj pulu",
+   "category": "implant",
+   "notes": "biconcave anchor washer → bikonkav ankraj pulu"
+  },
+  {
+   "source": "gliding channel",
+   "target": "kayma kanalı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Lindemann drill",
+   "target": "Lindemann matkabı",
+   "category": "instrument",
+   "notes": "twist drill → helisel matkap; round burr → yuvarlak frez"
+  },
+  {
+   "source": "square spanner",
+   "target": "kare anahtar",
+   "category": "instrument",
+   "notes": "nut → somun"
+  },
+  {
+   "source": "repositioning forceps",
+   "target": "repozisyon forsepsi",
+   "category": "instrument",
+   "notes": "repositioning pin → repozisyon pini"
+  },
+  {
+   "source": "periosteal elevator",
+   "target": "periost elevatörü",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "periangular approach",
+   "target": "periangüler yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "ramus height",
+   "target": "ramus yüksekliği",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "Towne's view",
+   "target": "Towne projeksiyonu",
+   "category": "medical",
+   "notes": "kaynakta \"Townes view\" de geçiyor"
+  },
+  {
+   "source": "preauricular approach",
+   "target": "preauriküler yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "rhytidectomy (face-lift) approach",
+   "target": "ritidektomi (yüz germe) yaklaşımı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "articular eminence",
+   "target": "artiküler eminens",
+   "category": "anatomy",
+   "notes": "glenoid fossa → glenoid fossa"
+  },
+  {
+   "source": "pterygomasseteric sling",
+   "target": "pterigomasseterik askı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "retromandibular vein",
+   "target": "retromandibular ven",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "auriculotemporal syndrome",
+   "target": "aurikulotemporal sendrom",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "costochondral graft",
+   "target": "kostokondral greft",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "double miniplate technique",
+   "target": "çift miniplak tekniği",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "right-angled drilling and screwdriving instrument",
+   "target": "dik açılı delme ve vida sıkma aleti",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "notched retractor",
+   "target": "çentikli ekartör",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "fixing clip",
+   "target": "tutucu klips",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "endoscopic monitoring",
+   "target": "endoskopik izlem",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "suction drainage",
+   "target": "aspiratif dren",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "buccal sulcus",
+   "target": "bukkal sulkus",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "delta-shaped plate",
+   "target": "delta biçimli plak",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "endoscopically assisted",
+   "target": "endoskopi destekli",
+   "category": "procedure",
+   "notes": "optical cavity → optik boşluk"
+  },
+  {
+   "source": "port",
+   "target": "giriş yeri",
+   "category": "procedure",
+   "notes": "ilk geçişte (ports)"
+  },
+  {
+   "source": "Schuchardt retractor",
+   "target": "Schuchardt ekartörü",
+   "category": "instrument",
+   "notes": "Langenbeck retractor → Langenbeck ekartörü"
+  },
+  {
+   "source": "low-profile",
+   "target": "alçak profilli",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "Inset",
+   "target": "İç resim",
+   "category": "other",
+   "notes": "şekil altyazılarında"
+  },
+  {
+   "source": "lag screw plate",
+   "target": "kompresyon vidalı plak",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "guide sleeve",
+   "target": "kılavuz kovanı",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "diamond-coated grooved cutter",
+   "target": "elmas kaplı oluklu frez",
+   "category": "instrument",
+   "notes": "bone burr → kemik frezi; milled recess → frezlenmiş yuva"
+  },
+  {
+   "source": "retroauricular approach",
+   "target": "retroauriküler yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "condylar head",
+   "target": "kondil başı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "external auditory canal",
+   "target": "dış kulak yolu",
+   "category": "anatomy",
+   "notes": "bony external acoustic meatus → kemik dış kulak yolu"
+  },
+  {
+   "source": "cicatricial stenosis",
+   "target": "skatrisyel stenoz",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "ancillary screw",
+   "target": "yardımcı vida",
+   "category": "implant",
+   "notes": "ancillary microplate → yardımcı mikroplak"
+  },
+  {
+   "source": "positional screws",
+   "target": "pozisyon vidaları",
+   "category": "implant",
+   "notes": "self-cutting → kendinden kesen"
+  },
+  {
+   "source": "auricular approach",
+   "target": "auriküler yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Kirschner wire",
+   "target": "Kirschner teli",
+   "category": "implant",
+   "notes": "polydioxanon pins → polidioksanon pinler"
+  },
+  {
+   "source": "diskocondylar ligament",
+   "target": "diskokondiler ligament",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "temporomandibular ligament",
+   "target": "temporomandibular ligament",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "single-pronged bone hook",
+   "target": "tek uçlu kemik kancası",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "one point fixation",
+   "target": "tek nokta tespiti",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "maxillary degloving",
+   "target": "maksiller degloving",
+   "category": "procedure",
+   "notes": "uncertain"
+  },
+  {
+   "source": "Rowe impaction forceps",
+   "target": "Rowe impaksiyon forsepsi",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "nasal pyramid",
+   "target": "nazal piramit",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "craniofacial disjunction",
+   "target": "kraniyofasiyal ayrışma",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "intermediate intermaxillary fixation",
+   "target": "ara intermaksiller fiksasyon",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "naso-ethmoid fracture",
+   "target": "naso-etmoid kırık",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "medial canthus",
+   "target": "medial kantus",
+   "category": "anatomy",
+   "notes": "canthal ligament → kantal ligament; canthoplexy → kantopleksi"
+  },
+  {
+   "source": "traumatic telecanthus",
+   "target": "travmatik telekantus",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "lacrimal apparatus",
+   "target": "lakrimal sistem",
+   "category": "anatomy",
+   "notes": "canaliculus → kanalikül"
+  },
+  {
+   "source": "cerebrospinal fluid leak",
+   "target": "beyin omurilik sıvısı sızıntısı",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "cribriform plate",
+   "target": "kribriform plak",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "Ayliffe classification",
+   "target": "Ayliffe sınıflaması",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "occipitomental view",
+   "target": "oksipitomental grafi",
+   "category": "medical",
+   "notes": ""
   }
  ]
 }
