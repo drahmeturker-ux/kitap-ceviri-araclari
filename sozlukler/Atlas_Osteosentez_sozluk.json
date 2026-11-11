@@ -693,6 +693,462 @@
    "target": "kaynamama",
    "category": "medical",
    "notes": ""
+  },
+  {
+   "source": "relaxed skin tension lines",
+   "target": "gevşek deri gerilim çizgileri",
+   "category": "medical",
+   "notes": "kısaltma RSTL kaynaktaki gibi"
+  },
+  {
+   "source": "Langer lines",
+   "target": "Langer çizgileri",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "awl",
+   "target": "bız",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "unattached mucosa",
+   "target": "yapışık olmayan mukoza",
+   "category": "anatomy",
+   "notes": "attached gingiva → yapışık dişeti"
+  },
+  {
+   "source": "marginal rim incision",
+   "target": "marjinal kenar insizyonu",
+   "category": "procedure",
+   "notes": "uncertain — ilk geçişte (marginal rim incision)"
+  },
+  {
+   "source": "vestibular approach",
+   "target": "vestibüler yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "mental nerve",
+   "target": "mental sinir",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "mattress suture",
+   "target": "matris sütür",
+   "category": "procedure",
+   "notes": "uncertain — ilk geçişte (mattress)"
+  },
+  {
+   "source": "wound dehiscence",
+   "target": "yara ayrışması",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "transbuccal",
+   "target": "transbukkal",
+   "category": "procedure",
+   "notes": "stab incision → bıçak insizyonu; tapping → kılavuz açma"
+  },
+  {
+   "source": "submandibular approach",
+   "target": "submandibular yaklaşım",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "marginal mandibular branch of the facial nerve",
+   "target": "fasiyal sinirin marjinal mandibular dalı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "platysma",
+   "target": "platisma",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "deep cervical fascia",
+   "target": "derin servikal fasya",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "nerve stimulator",
+   "target": "sinir stimülatörü",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "lower eyelid approach",
+   "target": "alt göz kapağı yaklaşımı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "upper lid blepharoplasty approach",
+   "target": "üst kapak blefaroplasti yaklaşımı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "brow approach",
+   "target": "kaş yaklaşımı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "coronal approach",
+   "target": "koronal yaklaşım",
+   "category": "procedure",
+   "notes": "coronal flap → koronal flep"
+  },
+  {
+   "source": "lateral canthotomy",
+   "target": "lateral kantotomi",
+   "category": "procedure",
+   "notes": "cantholysis → kantoliz"
+  },
+  {
+   "source": "orbital septum",
+   "target": "orbital septum",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "deep temporal fascia",
+   "target": "derin temporal fasya",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "temporal branch of the facial nerve",
+   "target": "fasiyal sinirin temporal dalı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "pericranium",
+   "target": "perikranyum",
+   "category": "anatomy",
+   "notes": "galea → galea"
+  },
+  {
+   "source": "medial canthal ligament",
+   "target": "medial kantal ligament",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "bipolar cautery",
+   "target": "bipolar koter",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "self-tapping screw",
+   "target": "kendinden kılavuzlu vida",
+   "category": "implant",
+   "notes": "ilk geçişte (self-tapping)"
+  },
+  {
+   "source": "self-drilling screw",
+   "target": "kendinden delen vida",
+   "category": "implant",
+   "notes": "ilk geçişte (self-drilling)"
+  },
+  {
+   "source": "pilot hole",
+   "target": "pilot delik",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "thread pitch",
+   "target": "diş adımı",
+   "category": "implant",
+   "notes": "core diameter → öz çap"
+  },
+  {
+   "source": "locking plate system",
+   "target": "kilitli plak sistemi",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "reconstruction plate",
+   "target": "rekonstrüksiyon plağı",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "preshaped plates",
+   "target": "önceden şekillendirilmiş plaklar",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "screw head",
+   "target": "vida başı",
+   "category": "implant",
+   "notes": "self-retaining → kendinden tutucu"
+  },
+  {
+   "source": "stainless steel",
+   "target": "paslanmaz çelik",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "biocompatibility",
+   "target": "biyouyumluluk",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "four-hole plate with bar",
+   "target": "köprülü dört delikli plak",
+   "category": "implant",
+   "notes": "uncertain"
+  },
+  {
+   "source": "bone clamp",
+   "target": "kemik klempi",
+   "category": "instrument",
+   "notes": "bone hook → kemik kancası"
+  },
+  {
+   "source": "modeling pliers",
+   "target": "modelaj pensi",
+   "category": "instrument",
+   "notes": "modeling lever → modelaj kaldıracı"
+  },
+  {
+   "source": "eyelet method",
+   "target": "ilmek yöntemi",
+   "category": "procedure",
+   "notes": "uncertain — ilk geçişte (eyelet)"
+  },
+  {
+   "source": "splinting",
+   "target": "splintleme",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Redon vacuum drainage",
+   "target": "Redon vakum drenajı",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "interforaminal area",
+   "target": "interforaminal bölge",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "nervus mentalis",
+   "target": "mental sinir",
+   "category": "anatomy",
+   "notes": "kaynakta Latince; ilk geçişte (nervus mentalis)"
+  },
+  {
+   "source": "impacted wisdom tooth",
+   "target": "gömülü yirmi yaş dişi",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "teeth germs",
+   "target": "diş germleri",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "extraperiosteally",
+   "target": "ekstraperiosteal",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "fracture line teeth",
+   "target": "kırık hattı dişleri",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "periapical osteitis",
+   "target": "periapikal osteit",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "pocket depth",
+   "target": "cep derinliği",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "arch bars",
+   "target": "ark barlar",
+   "category": "instrument",
+   "notes": "ilk geçişte (arch bars)"
+  },
+  {
+   "source": "miniscrew hooks",
+   "target": "minivida kancaları",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "circumzygomatic suspension wires",
+   "target": "sirkumzigomatik süspansiyon telleri",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "acrylic splint",
+   "target": "akrilik splint",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "vertical dimension",
+   "target": "vertikal boyut",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "capstan head",
+   "target": "ırgat başlı",
+   "category": "implant",
+   "notes": "uncertain — (capstan)"
+  },
+  {
+   "source": "gliding hole",
+   "target": "kayma deliği",
+   "category": "procedure",
+   "notes": "ilk geçişte (gliding hole)"
+  },
+  {
+   "source": "traction hole",
+   "target": "çekme deliği",
+   "category": "procedure",
+   "notes": "ilk geçişte (traction hole)"
+  },
+  {
+   "source": "countersink",
+   "target": "havşa",
+   "category": "procedure",
+   "notes": "countersinking → havşa açma"
+  },
+  {
+   "source": "washer",
+   "target": "pul",
+   "category": "implant",
+   "notes": "self-adapting spherical washer → kendiliğinden uyum sağlayan küresel pul"
+  },
+  {
+   "source": "position screw",
+   "target": "pozisyon vidası",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "cortical screw",
+   "target": "kortikal vida",
+   "category": "implant",
+   "notes": "shank → gövde; core diameter → öz çap"
+  },
+  {
+   "source": "towel clip",
+   "target": "havlu klempi",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "depth gauging",
+   "target": "derinlik ölçümü",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "centering guide",
+   "target": "merkezleme kılavuzu",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "serration",
+   "target": "girintili çıkıntılı yüzey",
+   "category": "biomechanics",
+   "notes": "uncertain"
+  },
+  {
+   "source": "sagittal split-ramus osteotomy",
+   "target": "sagittal split ramus osteotomisi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "inlay and onlay bone grafts",
+   "target": "inley ve onley kemik greftleri",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "guided lag screw technique",
+   "target": "yönlendirilmiş kompresyon vidası tekniği",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "drill guide",
+   "target": "matkap kılavuzu",
+   "category": "instrument",
+   "notes": "pointer → gösterge"
+  },
+  {
+   "source": "stepped drill bit",
+   "target": "kademeli matkap ucu",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "adjustable countersink",
+   "target": "ayarlanabilir havşa açıcı",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "depth gauge",
+   "target": "derinlik ölçer",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "mucobuccal fold",
+   "target": "mukobukkal kıvrım",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "rigid internal fixation",
+   "target": "rijit internal fiksasyon",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Ivy loops",
+   "target": "Ivy ilmekleri",
+   "category": "procedure",
+   "notes": "Ernst ligatures → Ernst ligatürleri"
   }
  ]
 }
