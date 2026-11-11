@@ -83,11 +83,12 @@ def main(pdf_path, first, last, out):
         blocks = []
         for w in sorted(cw, key=lambda w: (w['top'], w['x0'])):
             for b in blocks:
-                if w['top'] - b['bottom'] < 6 and w['x0'] < b['x1'] + 6 and w['x1'] > b['x0'] - 6:
-                    b['words'].append(w); b['bottom'] = max(b['bottom'], w['bottom'])
+                tol = 10 if abs(w['top'] - b['last']) < 2 and w['text'] != 'Fig.' else 6   # justified first lines have wide word gaps
+                if w['top'] - b['bottom'] < 6 and w['x0'] < b['x1'] + tol and w['x1'] > b['x0'] - 6:
+                    b['words'].append(w); b['bottom'] = max(b['bottom'], w['bottom']); b['last'] = w['top']
                     b['x0'] = min(b['x0'], w['x0']); b['x1'] = max(b['x1'], w['x1']); break
             else:
-                blocks.append({'words': [w], 'top': w['top'], 'bottom': w['bottom'], 'x0': w['x0'], 'x1': w['x1']})
+                blocks.append({'words': [w], 'last': w['top'], 'top': w['top'], 'bottom': w['bottom'], 'x0': w['x0'], 'x1': w['x1']})
         for i, b in enumerate(blocks):
             ws = sorted(b['words'], key=lambda w: (round(w['top']), w['x0']))
             n = 0
