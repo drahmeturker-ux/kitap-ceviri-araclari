@@ -1533,6 +1533,414 @@
    "target": "oksipitomental grafi",
    "category": "medical",
    "notes": ""
+  },
+  {
+   "source": "panfacial fracture",
+   "target": "panfasiyal kırık",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "outer facial frame",
+   "target": "dış yüz çerçevesi",
+   "category": "anatomy",
+   "notes": "inner facial frame → iç yüz çerçevesi"
+  },
+  {
+   "source": "naso-orbito-ethmoidal complex",
+   "target": "naso-orbito-etmoidal kompleks",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "split calvarial bone",
+   "target": "bölünmüş kalvaryal kemik",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "gingivobuccal sulcus",
+   "target": "gingivobukkal sulkus",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "Waters view",
+   "target": "Waters grafisi",
+   "category": "medical",
+   "notes": "submentovertex view → submentoverteks grafi"
+  },
+  {
+   "source": "cranial vault",
+   "target": "kafatası kubbesi",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "sagittal split osteotomy",
+   "target": "sagittal split osteotomi",
+   "category": "procedure",
+   "notes": "bad split → kötü split"
+  },
+  {
+   "source": "vertical ramus osteotomy",
+   "target": "vertikal ramus osteotomisi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "body (step) osteotomy",
+   "target": "gövde (basamak) osteotomisi",
+   "category": "procedure",
+   "notes": "ostectomy → ostektomi"
+  },
+  {
+   "source": "anterior subapical segmental osteotomy",
+   "target": "anterior subapikal segmental osteotomi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "genioplasty",
+   "target": "genioplasti",
+   "category": "procedure",
+   "notes": "midline symphyseal osteotomy → orta hat simfiz osteotomisi"
+  },
+  {
+   "source": "gauze-packing instrument",
+   "target": "gazlı bez tıkama aleti",
+   "category": "instrument",
+   "notes": "uncertain"
+  },
+  {
+   "source": "curve of Spee",
+   "target": "Spee eğrisi",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "osteotome",
+   "target": "osteotom",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "setback / advancement",
+   "target": "geriye alma / ilerletme",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "anterior maxillary segmental osteotomy",
+   "target": "anterior maksiller segmental osteotomi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "posterior maxillary segmental osteotomy",
+   "target": "posterior maksiller segmental osteotomi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Le Fort I/II/III osteotomy",
+   "target": "Le Fort I/II/III osteotomisi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "quadrangular osteotomy",
+   "target": "kuadrangüler osteotomi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "mucoperiosteal pedicle",
+   "target": "mukoperiosteal pedikül",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "infrazygomatic crest",
+   "target": "infrazigomatik kret",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "canine fossa",
+   "target": "fossa canina",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "bicuspid",
+   "target": "premolar",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "tuberosity",
+   "target": "tüber",
+   "category": "anatomy",
+   "notes": "maksiller tüber"
+  },
+  {
+   "source": "pterygoid plate",
+   "target": "pterigoid lamina",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "corticocancellous bone graft",
+   "target": "kortikokansellöz kemik grefti",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "mandibular–maxillary complex",
+   "target": "mandibula–maksilla kompleksi",
+   "category": "anatomy",
+   "notes": "maxillomandibular complex → maksillomandibular kompleks"
+  },
+  {
+   "source": "lacrimal duct",
+   "target": "gözyaşı kanalı",
+   "category": "anatomy",
+   "notes": "ilk geçişte (lacrimal duct)"
+  },
+  {
+   "source": "relapse",
+   "target": "nüks",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "cleft lip and palate",
+   "target": "dudak-damak yarığı",
+   "category": "medical",
+   "notes": "unilateral/bilateral → tek/iki taraflı"
+  },
+  {
+   "source": "early secondary bone grafting",
+   "target": "erken sekonder kemik greftlemesi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "alveolopalatal cleft",
+   "target": "alveolopalatal yarık",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "extrusion / intrusion",
+   "target": "ekstrüzyon / intrüzyon",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Binder syndrome",
+   "target": "Binder sendromu",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "subciliary incision",
+   "target": "subsiliyer insizyon",
+   "category": "procedure",
+   "notes": "conjunctival → konjonktival"
+  },
+  {
+   "source": "tilting osteotomy",
+   "target": "eğme (tilting) osteotomisi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "positioning plate",
+   "target": "pozisyonlama plağı",
+   "category": "implant",
+   "notes": "mandibulomaxillary position plate → mandibulomaksiller pozisyon plağı"
+  },
+  {
+   "source": "double-splint method",
+   "target": "çift splint yöntemi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "check bite",
+   "target": "kapanış kaydı",
+   "category": "procedure",
+   "notes": "ilk geçişte (check bite)"
+  },
+  {
+   "source": "articulator",
+   "target": "artikülatör",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "lateral cephalogram",
+   "target": "lateral sefalogram",
+   "category": "medical",
+   "notes": "posterior–anterior → posteroanterior"
+  },
+  {
+   "source": "class II / class III malocclusion",
+   "target": "sınıf II / sınıf III maloklüzyon",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "open bite / deep bite",
+   "target": "açık kapanış / derin kapanış",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "angular screwdriver",
+   "target": "açılı tornavida",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "laugh line",
+   "target": "gülme hattı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "split-fix plate",
+   "target": "split-fix plak",
+   "category": "implant",
+   "notes": "glider → kızak; clamping element → sıkıştırma elemanı"
+  },
+  {
+   "source": "immediate relapse",
+   "target": "erken nüks",
+   "category": "medical",
+   "notes": "ilk geçişte (immediate relapse)"
+  },
+  {
+   "source": "torsional strength",
+   "target": "burulma dayanımı",
+   "category": "biomechanics",
+   "notes": ""
+  },
+  {
+   "source": "hypertelorism",
+   "target": "hipertelorizm",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "craniosynostosis",
+   "target": "kraniyosinostoz",
+   "category": "medical",
+   "notes": "syndromal → sendromik"
+  },
+  {
+   "source": "scaphocephaly / plagiocephaly / trigonocephaly / brachycephaly",
+   "target": "skafosefali / plagiyosefali / trigonosefali / brakisefali",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "fronto-orbital bandeau",
+   "target": "fronto-orbital bant",
+   "category": "procedure",
+   "notes": "supraorbital bandeau → supraorbital bant"
+  },
+  {
+   "source": "median bone strip",
+   "target": "orta hat kemik şeridi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "lyophilized bank bone",
+   "target": "liyofilize banka kemiği",
+   "category": "procedure",
+   "notes": "lyocartilage → liyofilize kıkırdak"
+  },
+  {
+   "source": "frontofacial advancement",
+   "target": "frontofasiyal ilerletme",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "burr hole",
+   "target": "frez deliği",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "resorbable plate",
+   "target": "rezorbe olabilen plak",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "sun glass osteotomy",
+   "target": "güneş gözlüğü osteotomisi",
+   "category": "procedure",
+   "notes": "ilk geçişte (sun glass osteotomy)"
+  },
+  {
+   "source": "inner canthal ligament",
+   "target": "iç kantal ligament",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "facial bipartition",
+   "target": "fasiyal bipartisyon",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "biodegradable",
+   "target": "biyolojik olarak parçalanabilen",
+   "category": "material",
+   "notes": ""
+  },
+  {
+   "source": "poly-D,L-lactide (PDLLA)",
+   "target": "poli-D,L-laktid (PDLLA)",
+   "category": "material",
+   "notes": "PLLA → poli-L-laktid; PGA → poliglikolid; küçük büyük harfler düz harf"
+  },
+  {
+   "source": "glass transition temperature",
+   "target": "camsı geçiş sıcaklığı",
+   "category": "material",
+   "notes": ""
+  },
+  {
+   "source": "self-reinforced (SR)",
+   "target": "kendinden güçlendirilmiş (self-reinforced, SR)",
+   "category": "material",
+   "notes": ""
+  },
+  {
+   "source": "ultrasonic pin fixation",
+   "target": "ultrasonik pin fiksasyonu",
+   "category": "procedure",
+   "notes": "bone-welding pin → kemik kaynak pini; Sonic Weld System aynen"
+  },
+  {
+   "source": "mesh",
+   "target": "ağ",
+   "category": "implant",
+   "notes": "resorbable mesh → rezorbe olabilen ağ"
+  },
+  {
+   "source": "tapper",
+   "target": "kılavuz",
+   "category": "instrument",
+   "notes": ""
   }
  ]
 }
