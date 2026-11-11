@@ -47,6 +47,7 @@ def clean(t):
     t = re.sub(r'(\w)-\*\* \*\*(\w)', r'\1\2', t)   # hyphen break inside bold
     t = t.replace('** **', ' ')                     # adjacent bold runs across lines
     t = re.sub(r'(\d)-? ?([μµ]) ?m\b', r'\1 \2m', t)
+    t = re.sub(r'(\S) +([,.;:])(?= |$)', r'\1\2', t)        # stray space before punctuation
     t = re.sub(r'\(\s+\*\*', '(**', t); t = re.sub(r'\*\*\s+\)', '**)', t)
     return t
 
@@ -82,7 +83,7 @@ def main(pdf_path, first, last, out):
         blocks = []
         for w in sorted(cw, key=lambda w: (w['top'], w['x0'])):
             for b in blocks:
-                if w['top'] - b['bottom'] < 6 and w['x0'] < b['x1'] + 20 and w['x1'] > b['x0'] - 20:
+                if w['top'] - b['bottom'] < 6 and w['x0'] < b['x1'] + 6 and w['x1'] > b['x0'] - 6:
                     b['words'].append(w); b['bottom'] = max(b['bottom'], w['bottom'])
                     b['x0'] = min(b['x0'], w['x0']); b['x1'] = max(b['x1'], w['x1']); break
             else:
