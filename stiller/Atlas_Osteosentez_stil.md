@@ -53,6 +53,20 @@
 - Bölüm 8: "İntermaksiller İmmobilizasyon için Kancalar"; tek sayfa başlığı "Ligatürler"; Immobilization by Wiring → Telle İmmobilizasyon; Immobilization Using Hooks → Kancalarla İmmobilizasyon; Miniscrew Hooks → Minivida Kancaları
 - Bölüm 9: "Kompresyon Vidalarının Uygulama İlkeleri"; tek sayfa başlıkları "Kortikal Kompresyon Vidası" / "Gerçek Kompresyon Vidası" / "Kompresyon Vidası Osteosentezinin Endikasyonları"; Toulouse Mini Lag Screw → Toulouse Mini Kompresyon Vidası; Position Screw → Pozisyon Vidası; Conclusion → Sonuç
 - Bölüm 10: "Mandibula Kırıklarında Yönlendirilmiş Kompresyon Vidası Tekniği"; tek sayfa başlığı "Cerrahi Teknik"; Stabilization of the Occlusion → Oklüzyonun Stabilizasyonu; Surgical Approach → Cerrahi Yaklaşım; Reduction → Redüksiyon; General Fixation Technique → Genel Tespit Tekniği; Complications → Komplikasyonlar; Body Fractures → Gövde Kırıkları; Angle Fractures → Açı Kırıkları
+- Bölüm 11: "Kondil Tabanı ve Boynu Kırıkları: Ne Yapılmalı?" (sayfa başlığı da)
+- Bölüm 12: "Kondil Boynu Kırıkları: Kompresyon Vidaları"; tek sayfa başlıkları "Aletler" / "Cerrahi Teknik" / "Osteosentez Materyalinin Çıkarılması"; Indication → Endikasyon; First/Second … step: → Birinci/İkinci … adım: (satır içi kalın)
+- Bölüm 13: "Kondil Boynu Kırığı Miniplakları: Ekstraoral Yaklaşım"; tek sayfa başlıkları "Cerrahi Teknik" / "Osteosentez Tekniği" / "Komplikasyonlar"; Surgical Approaches → Cerrahi Yaklaşımlar; The Preauricular / Retromandibular Approach → Preauriküler / Retromandibular Yaklaşım; Rhytidectomy, Face-lift Approach → Ritidektomi, Yüz Germe Yaklaşımı
+- Bölüm 14: "Kondil Boynu Kırığı Miniplakları: İntraoral Yaklaşım"; tek sayfa başlıkları "Teknik" / "Tekniğin Avantajları"
+- Bölüm 15: "Kondil Boynu Kırıkları: Delta Biçimli Plak ve Endoskopik Yaklaşım"; tek sayfa başlığı "Teknik"
+- Bölüm 16: "Kondil Boynu Kırıkları: Kompresyon Vidalı Plaklar"; tek sayfa başlığı "Teknik"
+- Bölüm 17: "Kondil Başı Kırıklarının Retroauriküler Yaklaşımla Osteosentezi"; tek sayfa başlığı "Kondil Başı Kırıklarının Osteosentezi"
+- Bölüm 18: "Kondil Başı Kırıkları: Vida ve Pinle Tespit"; Auricular Approach → Auriküler Yaklaşım; Osteosynthesis → Osteosentez
+- Bölüm 19: "Orta Yüz Kırıkları"; tek sayfa başlığı "Le Fort III Kırıkları"; Fractures of the Zygoma → Zigoma Kırıkları; Le Fort I/II/III Fractures → Le Fort I/II/III Kırıkları
+- MRI: ilk geçişte "manyetik rezonans görüntüleme (MRI)".
+- Bölüm 20: "Naso-etmoid Kırıklar"; tek sayfa başlığı "Tedavi"; Clinical Examination → Klinik Muayene; Radiological Examination → Radyolojik İnceleme; Treatment → Tedavi; Surgical Exposure → Cerrahi Açılım; Reduction and Stabilization → Redüksiyon ve Stabilizasyon; Bone Grafting → Kemik Greftlemesi; Detached Canthus → Ayrılmış Kantus
+- Altyazılardaki "adapted from …" → "(uyarlanan kaynak: …"; kaynak künyesi aynen.
+- Altyazılarda "Inset:" → "İç resim:".
+- CT: ilk geçişte "bilgisayarlı tomografi (CT)".
 - "(i. e., …)" → "(yani …)"; "(e. g., …)" → "(ör. …)".
 - "lag screw" kitap boyunca "kompresyon vidası"; bölümün ilk geçişinde (lag screw).
 - İki sütuna bölünmüş altyazılarda (ör. Şekil 9.7) Türkçe metin aynı noktadan bölünür.
@@ -67,6 +81,10 @@
 - Bölüm 4: kaynak mikro işaretini "µ" (U+00B5) kullanıyor, Bölüm 1 "μ" (U+03BC); her bölümde kaynaktaki karakter korunur.
 - Bölüm 7, s. 36: "screws of 5–7 mm diameter" → "5–7 mm uzunluğunda [kaynakta: diameter]" (vida çapı 2 mm; 5–7 mm uzunluk).
 - Bölüm 7, s. 41: kaynakta "6 to 13 years" yazıyor, Şekil 7.18 ve sonraki cümle 6–12 / 12–18 diyor; sayı olduğu için değiştirilmedi.
+- Bölüm 11: kaynakta İngilizce yazım hataları var ("continous", "treatmant", "just over than"); Türkçeye taşınmadığı için not eklenmedi.
+- Bölüm 13, s. 72: metinde Şekil 13.11 ve 13.12 atıfları yer değiştirmiş (iki miniplak = 13.12, trokar = 13.11); "[kaynakta: Fig. …]" notuyla düzeltildi.
+- Bölüm 18, s. 93: kaynakta sağ sütunun ilk satırı ("ramus in a downward direction. The extension can be") resmin altında kalmış, basılı sayfada görünmüyor; çeviride metin resmin altındaki sütuna akıtıldı. Atıfta "Neff at al." yazımı aynen bırakıldı.
+- Bölüm 20, s. 102: koronal flep için "(see Fig. 5.22)" → "(bkz. Şekil 5.24 [kaynakta: Fig. 5.22])" (5.22 üst kapak blefaroplastisi, 5.24 koronal yaklaşım).
 - Latince/Fransızca terimler (restitutio ad integrum, soudure autogène) aynen kalır, gerekirse parantezde Türkçesi.
 
 ## Kullanım kaydı
@@ -78,4 +96,14 @@
 - Bölüm 8 (s. 44–45) tamamlandı.
 - Bölüm 9 (s. 46–52) tamamlandı.
 - Bölüm 10 (s. 53–57) tamamlandı.
-- Durum: Bölüm 1–10 bitti. Sonraki: Bölüm 11 "Condylar Base and Neck Fractures: What is to be Done?" (kitap s. 58, PDF s. 73).
+- Bölüm 11 (s. 58–59) tamamlandı.
+- Bölüm 12 (s. 60–66) tamamlandı.
+- Bölüm 13 (s. 67–73) tamamlandı.
+- Bölüm 14 (s. 74–77) tamamlandı.
+- Bölüm 15 (s. 78–84) tamamlandı.
+- Bölüm 16 (s. 85–87) tamamlandı.
+- Bölüm 17 (s. 88–92) tamamlandı.
+- Bölüm 18 (s. 93–94) tamamlandı.
+- Bölüm 19 (s. 95–98) tamamlandı.
+- Bölüm 20 (s. 99–103) tamamlandı.
+- Durum: Bölüm 1–20 bitti. Sonraki: Bölüm 21 "Panfacial Fractures" (kitap s. 104, PDF s. 119).
