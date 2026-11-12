@@ -2181,6 +2181,96 @@
    "target": "çapraşıklık",
    "category": "medical",
    "notes": ""
+  },
+  {
+   "source": "fibula flap",
+   "target": "fibula flebi",
+   "category": "procedure",
+   "notes": "osteocutaneous → osteokütanöz; skin paddle → deri adası"
+  },
+  {
+   "source": "septocutaneous / musculocutaneous perforator",
+   "target": "septokütanöz / muskulokütanöz perforatör",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "wedge osteotomy",
+   "target": "kama osteotomisi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "peroneal artery",
+   "target": "peroneal arter",
+   "category": "anatomy",
+   "notes": "venae comitantes → vena comitans"
+  },
+  {
+   "source": "stereomodel",
+   "target": "stereomodel",
+   "category": "instrument",
+   "notes": ""
+  },
+  {
+   "source": "scapula / parascapular flap",
+   "target": "skapula / paraskapular flep",
+   "category": "procedure",
+   "notes": "de-epithelized → epiteli kaldırılmış"
+  },
+  {
+   "source": "circumflex scapular artery",
+   "target": "sirkumfleks skapular arter",
+   "category": "anatomy",
+   "notes": "subscapular artery → subskapular arter; thoracodorsal → torakodorsal; angular branch → angüler dal"
+  },
+  {
+   "source": "recipient vessels",
+   "target": "alıcı damarlar",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "fretting corrosion",
+   "target": "sürtünme korozyonu",
+   "category": "material",
+   "notes": "ilk geçişte (fretting corrosion); pitting and crevice corrosion → çukur ve aralık korozyonu"
+  },
+  {
+   "source": "commercially pure titanium (cpTi)",
+   "target": "ticari saf titanyum (cpTi)",
+   "category": "material",
+   "notes": ""
+  },
+  {
+   "source": "stress shielding",
+   "target": "stres kalkanlaması",
+   "category": "biomechanics",
+   "notes": "ilk geçişte (stress shielding)"
+  },
+  {
+   "source": "contact sensitization",
+   "target": "kontakt duyarlanma",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "pseudarthrosis",
+   "target": "psödoartroz",
+   "category": "medical",
+   "notes": "delayed union → gecikmiş kaynama; fibrous union → fibröz kaynama"
+  },
+  {
+   "source": "suture dehiscence",
+   "target": "dikiş dehisansı",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "selective occlusal grinding",
+   "target": "selektif oklüzal aşındırma",
+   "category": "procedure",
+   "notes": ""
   }
  ]
 }
