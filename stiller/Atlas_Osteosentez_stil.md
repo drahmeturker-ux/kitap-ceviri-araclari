@@ -122,4 +122,7 @@
 - Bölüm 29: panel harfleri (a, b, c, d) vektör metin; layout.py dar kutu için genişlik düzeltmesi yapıyor. Vektör şemalardaki İngilizce etiketler (CONTOURING vb.) şekil etiketi kuralıyla bırakıldı.
 - Bölüm 31: Tablo 31.1 hücreleri layout.json’da satır satır ayrı kutulara bölündü (pXXX_labN / pXXX_numN).
 - Bölüm 32: metinde vida ucu "10 mm", Şekil 32.3’te "15 mm" — kaynaktaki gibi bırakıldı.
-- Durum: Bölüm 1–35 bitti. Sonraki: Bölüm 36 (kitap s. 191, PDF s. 206–210).
+- Bölüm 36: "Flap harvesting in anemia" → turnikeyle kansız alanda; "three tibial arteries" → üç bacak arteri.
+- Terim: zygomatic arch → zigomatik ark (Bölüm 26’daki "arcus zygomaticus" düzeltildi)
+- Bölüm 38, s. 203: "interleukin (IL)-1δ" → "IL-1β [kaynakta: IL-1δ]". H2O2 alt simgeleri küçük punto caption sanılıyor; caption boş, gövdede H₂O₂.
+- Durum: Bölüm 1–39 bitti (tüm bölümler). Kaynakça (PDF s. 224–236) skill kuralı gereği kaynaktaki gibi; Dizin (PDF s. 237–241) çevrilmedi — kullanıcıya soruldu.
