@@ -43,6 +43,7 @@
 - 2026-11-12: başlangıç oturum %20, haftalık 0–25%; Bölüm 1 (PDF s. 15–68, 50 sayfa metin + 3 sayfa kaynakça) çevrildi; 4 alt ajan (~410k token) + ana oturum (~250k token) ≈ 0,65M token. Sonraki: Bölüm 2 (PDF s. 69–94).
 
 - 2026-11-12 (aynı oturum): Bölüm 2 (PDF s. 69–94; s. 93 karışık gövde+kaynakça, s. 94 kaynakça) çevrildi; 2 alt ajan (~200k token) + ana oturum (~120k) ≈ 0,32M token. Sonraki: Bölüm 3 (PDF s. 95–104).
+- 2026-11-12 (aynı oturum): Bölüm 3 (s. 95–104) ve Bölüm 4 (s. 105–116) ana oturumda (alt ajansız) çevrildi; ikisi birlikte ≈ 0,25M token. Sonraki: Bölüm 5 (PDF s. 117–134).
 
 ## Bölüm 1'de bulunan kaynak hataları ([kaynakta: …] notlu)
 - Berhard → Bernhard (von Langenbeck); Weissensse → Weissensee; "suspected between three points" → asılı (suspended); implatology → implantoloji; "Media Nasal Wall" → Medial; "sective broken" → selektif olarak; "columella bas" → taban; "protection" → projeksiyon (bağlam); Addson-Brown → Adson-Brown; batton → batten; ikinci "anosmia" → koku agnozisi (olfaktör agnozi).
@@ -52,6 +53,14 @@
 - Bölüm 2 başlığı: "Çağdaş Rinoplasti: Kişisel İlkeler ve Felsefe".
 - Crus çoğulu her yerde "kruslar" (krura değil); sıfat "krural".
 - Kaynak notları: muculoaponeurotic → musculoaponeurotic; "cephalic margin of the lateral" → lateral krus; mortis → mortise; micro-osteotomies → mikroosteotomlar (alet).
+
+## Bölüm 3–4 notları
+- Bölüm 3: "Rinoplastide Yüz Oranları ve Estetik İdealler"; Bölüm 4: "Burun Solunumunun Fizyolojisi ve Patofizyolojisi".
+- CT her yerde CT ("BT" yazılmaz; "CT kesiti"). Yüz açıları kısaltmaları kaynaktaki gibi: NFR, FP, NFA, NLA, CFA; akustik rinometri MCA, RRM, AR, RFM.
+- Sembol fontundaki harfler (φ, λ) metinden çıkmıyor; çeviride elle yazılır (Altın Oran φ, sürtünme katsayısı λ).
+- Bölüm 4 "Surgical consequence" kutu benzeri italik cümleler → "Cerrahi sonuç: …" italik.
+- Kaynak notları: Villendorf → Willendorf; Boticelli → Botticelli; "nasal bones about the frontal bone" → abut (birleşir); "Milkrophon" → Mikrofon; Şekil 4.15 altyazısında cümle iki kez yinelenmiş (bir kez çevrildi).
+- Yan yana iki/üç altyazı tek blok olarak çıkabiliyor (s. 108): layout.json'da elle bölündü (p108_cap1b). s. 96'daki iki sütuna yayılan epigraf da elle iki parçaya bölündü.
 
 ## Teknik notlar
 - extract2.py: Gulliver 6–7,5 pt = kaynakça girdisi ('ref'), gövde sayfalarında da karakter karakter aynen çizilir (karışık sayfalar için). Ligatür bölünmeleri ("super fi cial") ve küçük harf kerning bölünmeleri ("r hinoplasty") temizlenir.
