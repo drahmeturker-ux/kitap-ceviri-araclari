@@ -119,4 +119,7 @@
 - Bölüm 26: "glabela" (kaynak yazımı) → glabella; magnifying loops → büyüteç gözlük
 - Bölüm 27: PDF s. 152’deki küçük büyük harf D/L ve Mw alt simgesi küçük punto olduğundan caption sanılıyor; caption’lar boş bırakılıp harfler gövde metnine yazıldı. Uzun bölüm başlığında çift sayfa üst bilgisi "…" ile kısaltıldı.
 - Terim: thread → vida dişi, thread pitch → diş adımı ("yiv" değil); drill-free screw → delme gerektirmeyen vida
-- Durum: Bölüm 1–28 bitti. Sonraki: Bölüm 29 (kitap s. 144, PDF s. 159–174).
+- Bölüm 29: panel harfleri (a, b, c, d) vektör metin; layout.py dar kutu için genişlik düzeltmesi yapıyor. Vektör şemalardaki İngilizce etiketler (CONTOURING vb.) şekil etiketi kuralıyla bırakıldı.
+- Bölüm 31: Tablo 31.1 hücreleri layout.json’da satır satır ayrı kutulara bölündü (pXXX_labN / pXXX_numN).
+- Bölüm 32: metinde vida ucu "10 mm", Şekil 32.3’te "15 mm" — kaynaktaki gibi bırakıldı.
+- Durum: Bölüm 1–35 bitti. Sonraki: Bölüm 36 (kitap s. 191, PDF s. 206–210).
