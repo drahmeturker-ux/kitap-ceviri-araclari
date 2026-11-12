@@ -42,10 +42,18 @@
 ## Kullanım günlüğü
 - 2026-11-12: başlangıç oturum %20, haftalık 0–25%; Bölüm 1 (PDF s. 15–68, 50 sayfa metin + 3 sayfa kaynakça) çevrildi; 4 alt ajan (~410k token) + ana oturum (~250k token) ≈ 0,65M token. Sonraki: Bölüm 2 (PDF s. 69–94).
 
+- 2026-11-12 (aynı oturum): Bölüm 2 (PDF s. 69–94; s. 93 karışık gövde+kaynakça, s. 94 kaynakça) çevrildi; 2 alt ajan (~200k token) + ana oturum (~120k) ≈ 0,32M token. Sonraki: Bölüm 3 (PDF s. 95–104).
+
 ## Bölüm 1'de bulunan kaynak hataları ([kaynakta: …] notlu)
 - Berhard → Bernhard (von Langenbeck); Weissensse → Weissensee; "suspected between three points" → asılı (suspended); implatology → implantoloji; "Media Nasal Wall" → Medial; "sective broken" → selektif olarak; "columella bas" → taban; "protection" → projeksiyon (bağlam); Addson-Brown → Adson-Brown; batton → batten; ikinci "anosmia" → koku agnozisi (olfaktör agnozi).
 - Kaynakta kalan, düzeltilmeyen: Jacques Joseph "graduated in Leipzig in 1861" (1865 doğumlu; muhtemelen 1890) — çeviride 1861 bırakıldı, kullanıcıya bildirildi.
 
+## Bölüm 2 notları
+- Bölüm 2 başlığı: "Çağdaş Rinoplasti: Kişisel İlkeler ve Felsefe".
+- Crus çoğulu her yerde "kruslar" (krura değil); sıfat "krural".
+- Kaynak notları: muculoaponeurotic → musculoaponeurotic; "cephalic margin of the lateral" → lateral krus; mortis → mortise; micro-osteotomies → mikroosteotomlar (alet).
+
 ## Teknik notlar
+- extract2.py: Gulliver 6–7,5 pt = kaynakça girdisi ('ref'), gövde sayfalarında da karakter karakter aynen çizilir (karışık sayfalar için). Ligatür bölünmeleri ("super fi cial") ve küçük harf kerning bölünmeleri ("r hinoplasty") temizlenir.
 - extract2.py: x_tolerance=1 bazı kelimeleri böler ("techniqu e", "f orceps", "2 3-year-old", "camou fl age"); satır sonu tirelerinde bileşik kelimeler birleşir ("sideto-side"). Çevirmen bunları kaynak hatası saymamalı.
 - layout2.py: gövde DejaVu Serif Condensed 8,7 pt, Türkçe hece bölme (yumuşak tire), başlık/altyazı Carlito; kaynakça sayfaları karakter karakter yeniden çizilir, yalnız "References" → "Kaynaklar".
