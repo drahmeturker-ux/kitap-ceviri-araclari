@@ -8,6 +8,7 @@ p<N>_rh (running head text without page/chapter numbers), p<N>_h1 (chapter title
 Source text is removed from the page content streams (not covered), then the
 translation is drawn with substitute fonts in the original frames.
 """
+from reportlab.pdfbase.pdfmetrics import stringWidth
 import io, json, re, sys, copy
 from pypdf import PdfReader, PdfWriter
 from pypdf.generic import ContentStream, NameObject
@@ -209,6 +210,8 @@ def draw_page(c, pn, L, T, parts):
         right = 280.8 if cap['x1'] < info['w'] / 2 else 510.4
         if right - cap['x1'] > 40: right = cap['x1'] + 2
         w = right - cap['x0']
+        if len((bold + rest).strip()) <= 4:   # panel letters (a, b, c) drawn as vector text
+            w = max(w, stringWidth(bold + ' ' + rest, 'Sans-B', cap['size']) + 4)
         avail = (cap['bottom'] - cap['top']) * 1.25 + 6
         size = cap['size']
         while True:
