@@ -1,0 +1,684 @@
+{
+ "book": "Essentials of Septorhinoplasty (Behrbohm, Tardy)",
+ "terms": [
+  {
+   "source": "septorhinoplasty",
+   "target": "septorinoplasti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhinoplasty",
+   "target": "rinoplasti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "septoplasty",
+   "target": "septoplasti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhinosurgery",
+   "target": "rinocerrahi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhinosurgeon",
+   "target": "rinocerrah",
+   "category": "person",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "functional–aesthetic",
+   "target": "fonksiyonel-estetik",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal tip",
+   "target": "burun ucu",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal dorsum",
+   "target": "burun sırtı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "dorsal hump",
+   "target": "dorsal hörgüç",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal valve",
+   "target": "nazal valv",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar cartilage",
+   "target": "alar kıkırdak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "lower lateral cartilage",
+   "target": "alt lateral kıkırdak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "upper lateral cartilage",
+   "target": "üst lateral kıkırdak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "columella",
+   "target": "kolumella",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "supratip",
+   "target": "supratip",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "turbinate",
+   "target": "konka",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "inferior turbinate",
+   "target": "alt konka",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "middle turbinate",
+   "target": "orta konka",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "paranasal sinuses",
+   "target": "paranazal sinüsler",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "ethmoid",
+   "target": "etmoid",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "endonasal",
+   "target": "endonazal",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "open approach",
+   "target": "açık yaklaşım",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "closed approach",
+   "target": "kapalı yaklaşım",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "approach",
+   "target": "yaklaşım",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "intercartilaginous incision",
+   "target": "interkartilajinöz insizyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "transcartilaginous",
+   "target": "transkartilajinöz",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rim incision",
+   "target": "rim insizyonu",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "delivery approach",
+   "target": "delivery yaklaşımı",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "saddle nose",
+   "target": "semer burun",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "deviated nose",
+   "target": "eğri burun",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tension nose",
+   "target": "gergin burun",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "obstructive sleep apnea",
+   "target": "obstrüktif uyku apnesi",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "sleep-disordered breathing",
+   "target": "uykuda solunum bozukluğu",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "apnea–hypopnea index",
+   "target": "apne-hipopne indeksi",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "snoring",
+   "target": "horlama",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhonchopathy",
+   "target": "ronkopati",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "functional endoscopic sinus surgery",
+   "target": "fonksiyonel endoskopik sinüs cerrahisi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "mucosa",
+   "target": "mukoza",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "perichondrium",
+   "target": "perikondriyum",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "periosteum",
+   "target": "periost",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "graft",
+   "target": "greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "flap",
+   "target": "flep",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "spreader graft",
+   "target": "spreader greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "infundibulotomy",
+   "target": "infundibulotomi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "uncinate process",
+   "target": "unsinat çıkıntı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "ethmoid bulla",
+   "target": "etmoid bulla",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "agger nasi",
+   "target": "agger nasi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "frontal recess",
+   "target": "frontal reses",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "submucous resection",
+   "target": "submukoz rezeksiyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "cleft lip",
+   "target": "yarık dudak",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal packing",
+   "target": "nazal tampon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "osteotomy",
+   "target": "osteotomi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal breathing",
+   "target": "burun solunumu",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhinomanometry",
+   "target": "rinomanometri",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "acoustic rhinometry",
+   "target": "akustik rinometri",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Epworth Sleepiness Scale",
+   "target": "Epworth Uykululuk Ölçeği",
+   "category": "scale",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "evidence-based medicine",
+   "target": "kanıta dayalı tıp",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "pyriform aperture",
+   "target": "piriform apertür",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "keystone area",
+   "target": "keystone bölgesi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "anterior nasal spine",
+   "target": "ön nazal spina",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "perpendicular plate",
+   "target": "perpendiküler lamina",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "quadrangular cartilage",
+   "target": "kuadrangüler kıkırdak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "medial crus",
+   "target": "medial krus",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "lateral crus",
+   "target": "lateral krus",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "dome",
+   "target": "dom",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tip projection",
+   "target": "uç projeksiyonu",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "polydioxanone",
+   "target": "polidioksanon",
+   "category": "material",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "maxillary sinus",
+   "target": "maksiller sinüs",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "frontal sinus",
+   "target": "frontal sinüs",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "sphenoid sinus",
+   "target": "sfenoid sinüs",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal septum",
+   "target": "nazal septum",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "anterior septum",
+   "target": "anterior septum",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "posterior septum",
+   "target": "posterior septum",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "composite graft",
+   "target": "kompozit greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "crushed cartilage",
+   "target": "ezilmiş kıkırdak",
+   "category": "material",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal resistance",
+   "target": "nazal direnç",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal obstruction",
+   "target": "burun tıkanıklığı",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "structure-conserving",
+   "target": "yapıyı koruyan",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "superficial musculoaponeurotic system",
+   "target": "yüzeyel muskuloaponörotik sistem",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "cerebrospinal fluid",
+   "target": "beyin omurilik sıvısı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "continuous positive airway pressure",
+   "target": "sürekli pozitif hava yolu basıncı",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal cycle",
+   "target": "nazal siklus",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "hyporhinophonia",
+   "target": "hiporinofoni",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "hyperrhinophonia",
+   "target": "hiperrinofoni",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "conchotomy",
+   "target": "konkotomi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "olfactory agnosia",
+   "target": "koku agnozisi",
+   "category": "medical",
+   "aliases": [],
+   "notes": "source uses 'anosmia' by error in ch1"
+  },
+  {
+   "source": "cartilage-splitting approach",
+   "target": "kıkırdak ayırma yaklaşımı",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "columellar strut",
+   "target": "kolumellar strut",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "shield graft",
+   "target": "kalkan greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tip graft",
+   "target": "uç grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "batten graft",
+   "target": "batten grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "onlay graft",
+   "target": "onlay greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tongue-in-groove",
+   "target": "tongue-in-groove",
+   "category": "procedure",
+   "aliases": [],
+   "notes": "kept English"
+  },
+  {
+   "source": "dome suture technique",
+   "target": "dom sütür tekniği",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rest hump",
+   "target": "rezidüel hörgüç",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Indian rhinoplasty",
+   "target": "Hint rinoplastisi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Italian rhinoplasty",
+   "target": "İtalyan rinoplastisi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  }
+ ]
+}
