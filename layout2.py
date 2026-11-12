@@ -216,6 +216,10 @@ def draw_page(c, pn, L, T, parts, plpage):
             col = ch.get('non_stroking_color')
             c.setFillColor(cmyk(list(col)) if isinstance(col, (list, tuple)) else black)
             c.setFont('Serif', ch['size']); c.drawString(ch['matrix'][4], ch['matrix'][5], ch['text'])
+    # reference entries on mixed pages: redrawn char by char, unchanged
+    for ch in plpage.chars:
+        if 'Gulliver' in ch['fontname'] and 6 <= ch['size'] < 7.5:
+            c.setFillColor(black); c.setFont('Serif', ch['size']); c.drawString(ch['matrix'][4], ch['matrix'][5], ch['text'])
     # running head: bold parts (page number) kept, medium parts translated
     for r in info['runhead']:
         y = H - baseline(r)
@@ -267,7 +271,7 @@ def draw_page(c, pn, L, T, parts, plpage):
         if len(re.findall(r'[^\W\d_]', txt)) > 1 and li < len(labs):
             txt = labs[li]; li += 1
         w0 = lb['x1'] - lb['x0']
-        fit_text(c, txt, sans(lb['font']), lb['size'], lb['x0'], H - baseline(lb), maxw=max(w0 * 1.5, w0 + 25), color=cmyk(lb['color']))
+        fit_text(c, txt, sans(lb['font']), lb['size'], lb['x0'], H - baseline(lb), maxw=max(w0 * 1.2, w0 + 8), color=cmyk(lb['color']))
     # gray boxes
     for b in info['boxes']:
         tr = T.get(b['id'], [x['t'] for x in b['lines']])

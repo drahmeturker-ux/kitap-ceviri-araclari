@@ -31,6 +31,7 @@ def ROLE(w, top):
     if 'Argo' in f and abs(s - 9) < .3: return 'box'
     if 'Argo' in f and col4(w) and s < 10: return 'label'
     if 'Argo' in f and s < 8.5: return 'caption'
+    if 'Gulliver' in f and 6 <= s < 7.5: return 'ref'      # reference entries: kept as in the source
     if 'Gulliver' in f and s < 6: return 'sup'
     return 'body'
 
@@ -61,7 +62,9 @@ def clean(t):
     t = re.sub(r'\(\s+\*\*', '(**', t); t = re.sub(r'\*\*\s+\)', '**)', t)
     t = re.sub(r'“ <i>', '“<i>', t); t = re.sub(r'</i> ([.,;:)”])', r'</i>\1', t)
     t = re.sub(r'\b([B-HJ-Z]) ([a-z]{2,})', r'\1\2', t)      # split kerned capitals (G uillaume)
+    t = re.sub(r'(?<![\w<>/])([b-hj-oq-wyz]) ([a-z]{2,})', r'\1\2', t)   # split kerned lowercase (r hinoplasty)
     t = re.sub(r'(\d)– (\d)', r'\1–\2', t)
+    t = re.sub(r'(\w) ?\b(ffi|ffl|fi|fl|ff) (?=\w)', r'\1\2', t)   # split ligatures (super fi cial)
     t = re.sub(r'\s+', ' ', t).strip()
     return t
 
