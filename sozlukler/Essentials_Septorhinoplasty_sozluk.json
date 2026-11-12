@@ -440,14 +440,14 @@
    "target": "medial krus",
    "category": "anatomy",
    "aliases": [],
-   "notes": ""
+   "notes": "plural: kruslar (not krura)"
   },
   {
    "source": "lateral crus",
    "target": "lateral krus",
    "category": "anatomy",
    "aliases": [],
-   "notes": ""
+   "notes": "plural: kruslar (not krura)"
   },
   {
    "source": "dome",
@@ -677,6 +677,125 @@
    "source": "Italian rhinoplasty",
    "target": "İtalyan rinoplastisi",
    "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tip support",
+   "target": "uç desteği",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "medial crural footplate",
+   "target": "medial krural ayak plağı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nostril sill",
+   "target": "burun deliği eşiği",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "infratip lobule",
+   "target": "infratip lobül",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "complete strip",
+   "target": "tam şerit",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "interrupted strip",
+   "target": "kesintili şerit",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "volume reduction",
+   "target": "hacim azaltma",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "transcolumellar incision",
+   "target": "transkolumellar insizyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "marginal incision",
+   "target": "marjinal insizyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "lateral osteotomy",
+   "target": "lateral osteotomi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "micro-osteotome",
+   "target": "mikroosteotom",
+   "category": "instrument",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "quilting mattress suture",
+   "target": "kapitone matris sütürü",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "mucoperichondrial flap",
+   "target": "mukoperikondriyal flep",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "middle vault",
+   "target": "orta kubbe",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bony vault",
+   "target": "kemik kubbe",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "mortise joint",
+   "target": "zıvana eklemi",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "patient dissatisfaction",
+   "target": "hasta memnuniyetsizliği",
+   "category": "phrase",
    "aliases": [],
    "notes": ""
   }
