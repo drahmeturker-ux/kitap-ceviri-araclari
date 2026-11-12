@@ -798,6 +798,223 @@
    "category": "phrase",
    "aliases": [],
    "notes": ""
+  },
+  {
+   "source": "nasofrontal angle",
+   "target": "nazofrontal açı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasofacial angle",
+   "target": "nazofasiyal açı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasomental angle",
+   "target": "nazomental açı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasolabial angle",
+   "target": "nazolabial açı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "mentocervical angle",
+   "target": "mentoservikal açı",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Golden Ratio",
+   "target": "Altın Oran",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Frankfurt plane",
+   "target": "Frankfurt düzlemi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tip-defining point",
+   "target": "uç tanımlayıcı nokta",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "columellar show",
+   "target": "kolumella görünümü",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "double break",
+   "target": "çift kırılma",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "aesthetic unit",
+   "target": "estetik ünite",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "leptorrhine",
+   "target": "leptorin",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "platyrrhine",
+   "target": "platirin",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "mesorrhine",
+   "target": "mezorin",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "polly beak",
+   "target": "papağan gagası",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "inflow area",
+   "target": "giriş bölgesi",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "outflow area",
+   "target": "çıkış bölgesi",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "functional area",
+   "target": "fonksiyonel bölge",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "diffuser",
+   "target": "difüzör",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nozzle",
+   "target": "nozül",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bend",
+   "target": "dirsek",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "slitlike space",
+   "target": "yarık benzeri aralık",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "internal ostium",
+   "target": "iç ostium",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nasal cycle",
+   "target": "nazal siklus",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rhinoresistometry",
+   "target": "rinorezistometri",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "long-term rhinoflowmetry",
+   "target": "uzun süreli rinoflowmetri",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "inspiratory nasal wing collapse",
+   "target": "inspiratuvar burun kanadı kollapsı",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "hydraulic diameter",
+   "target": "hidrolik çap",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "friction coefficient",
+   "target": "sürtünme katsayısı",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "erectile body of the septum",
+   "target": "septumun erektil cismi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "triangular cartilage",
+   "target": "triangüler kıkırdak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
   }
  ]
 }
