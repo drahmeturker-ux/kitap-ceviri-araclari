@@ -1941,6 +1941,246 @@
    "target": "kılavuz",
    "category": "instrument",
    "notes": ""
+  },
+  {
+   "source": "reconstructive preprosthetic surgery",
+   "target": "rekonstrüktif preprotetik cerrahi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "pre-implant surgery",
+   "target": "implant öncesi cerrahi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "endosteal implant",
+   "target": "endosteal implant",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "residual ridge",
+   "target": "rezidüel kret",
+   "category": "anatomy",
+   "notes": "knife-edge ridge → bıçak sırtı kret"
+  },
+  {
+   "source": "edentulous / dentate jaw",
+   "target": "dişsiz / dişli çene",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "interarch relationship",
+   "target": "arklar arası ilişki",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "centrifugal / centripetal blood supply",
+   "target": "santrifugal / santripetal kanlanma",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "dental bulge",
+   "target": "dental çıkıntı",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "circumoral musculature",
+   "target": "ağız çevresi kasları",
+   "category": "anatomy",
+   "notes": "muscles of facial expression → mimik kasları"
+  },
+  {
+   "source": "veneer graft",
+   "target": "kaplama (veneer) grefti",
+   "category": "procedure",
+   "notes": "saddle graft → semer grefti"
+  },
+  {
+   "source": "sinus lift",
+   "target": "sinüs lifting",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "particulate cancellous bone",
+   "target": "partikül kansellöz kemik",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "Edlan flap",
+   "target": "Edlan flebi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "osteoplasty",
+   "target": "osteoplasti",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "guided bone regeneration",
+   "target": "yönlendirilmiş kemik rejenerasyonu",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "bone collector",
+   "target": "kemik toplayıcı",
+   "category": "instrument",
+   "notes": "bone dust and filings → kemik tozu ve talaşları"
+  },
+  {
+   "source": "bone dehiscence",
+   "target": "kemik dehisansı",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "distraction osteogenesis",
+   "target": "distraksiyon osteogenezi",
+   "category": "procedure",
+   "notes": "callus distraction → kallus distraksiyonu; distractor → distraktör"
+  },
+  {
+   "source": "ankylosed tooth",
+   "target": "ankiloze diş",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "floating bone concept",
+   "target": "yüzen kemik kavramı",
+   "category": "procedure",
+   "notes": "ilk geçişte (floating bone concept)"
+  },
+  {
+   "source": "overdistraction",
+   "target": "fazla distraksiyon",
+   "category": "procedure",
+   "notes": "ilk geçişte (overdistraction)"
+  },
+  {
+   "source": "major / minor complication",
+   "target": "majör / minör komplikasyon",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "endodistraction",
+   "target": "endodistraksiyon",
+   "category": "procedure",
+   "notes": "endodistraction screw → endodistraksiyon vidası; hollow implant → içi boş implant"
+  },
+  {
+   "source": "transport segment",
+   "target": "transport segmenti",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "retention time",
+   "target": "retansiyon dönemi",
+   "category": "procedure",
+   "notes": "latency period → latent dönem"
+  },
+  {
+   "source": "piezosurgery",
+   "target": "piezocerrahi",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "left-hand tap",
+   "target": "sol el dişi",
+   "category": "implant",
+   "notes": ""
+  },
+  {
+   "source": "titanium mesh",
+   "target": "titanyum ağ",
+   "category": "implant",
+   "notes": "mesh cutter → ağ kesici; micromesh → mikroağ; mesh osteosynthesis → ağ osteosentezi"
+  },
+  {
+   "source": "microsurgically anastomosed flap",
+   "target": "mikrocerrahi anastomozlu flep",
+   "category": "procedure",
+   "notes": "fibula free flap → serbest fibula flebi"
+  },
+  {
+   "source": "osteoradionecrosis",
+   "target": "osteoradyonekroz",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "titanium reconstruction miniplate",
+   "target": "titanyum rekonstrüksiyon miniplağı",
+   "category": "implant",
+   "notes": "bridging plate → köprüleme plağı"
+  },
+  {
+   "source": "stress protection",
+   "target": "stres koruması",
+   "category": "biomechanics",
+   "notes": "ilk geçişte (stress protection)"
+  },
+  {
+   "source": "mandibular stump",
+   "target": "mandibula güdüğü",
+   "category": "anatomy",
+   "notes": ""
+  },
+  {
+   "source": "enoral / intraoral distraction",
+   "target": "ağız içi distraksiyon",
+   "category": "procedure",
+   "notes": "horizontal / vertical mandibular distractor → horizontal / vertikal mandibular distraktör"
+  },
+  {
+   "source": "hemifacial microsomia",
+   "target": "hemifasiyal mikrozomi",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "transantral distractor",
+   "target": "transantral distraktör",
+   "category": "implant",
+   "notes": "adjustment clamp → ayar kıskacı; extension piece → uzatma parçası; activation pin → aktivasyon pini"
+  },
+  {
+   "source": "down fracture",
+   "target": "aşağı kırma (down fracture)",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "rapid maxillary expansion",
+   "target": "hızlı maksiller genişletme",
+   "category": "procedure",
+   "notes": ""
+  },
+  {
+   "source": "greenstick fracture",
+   "target": "yeşil ağaç kırığı",
+   "category": "medical",
+   "notes": ""
+  },
+  {
+   "source": "crowding",
+   "target": "çapraşıklık",
+   "category": "medical",
+   "notes": ""
   }
  ]
 }
