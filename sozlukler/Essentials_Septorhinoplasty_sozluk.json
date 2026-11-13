@@ -1295,6 +1295,55 @@
    "category": "material",
    "aliases": [],
    "notes": ""
+  },
+  {
+   "source": "alar base reduction",
+   "target": "alar taban küçültme",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "sliding alar flap",
+   "target": "kaydırmalı alar flep",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar–facial junction",
+   "target": "alar-fasiyal bileşke",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "nostril sill",
+   "target": "burun deliği eşiği",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar cinch suture",
+   "target": "alar büzme (alar cinch) sütürü",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Weir procedure",
+   "target": "Weir işlemi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar hooding",
+   "target": "alar kapüşonlanma",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
   }
  ]
 }
