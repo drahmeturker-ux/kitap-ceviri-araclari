@@ -47,6 +47,7 @@
 - 2026-11-13: Bölüm 5 (s. 117–134) 2 alt ajanla (~185k) + ana oturum (~90k) ≈ 0,28M token. Sonraki: Bölüm 6 (PDF s. 135–142).
 - 2026-11-13: Bölüm 6 (s. 135–142) ana oturumda ≈ 0,06M token. Sonraki: Bölüm 7 (PDF s. 143–156).
 - 2026-11-13: Bölüm 7 (s. 143–156) 2 alt ajanla (~170k) ve Bölüm 8 (s. 157–168) ana oturumda (~40k). Sonraki: Bölüm 9 (PDF s. 169–178).
+- 2026-11-13: Bölüm 9 (s. 169–178) ana oturumda ≈ 0,04M token. Sonraki: Bölüm 10 (PDF s. 179–206).
 
 ## Bölüm 1'de bulunan kaynak hataları ([kaynakta: …] notlu)
 - Berhard → Bernhard (von Langenbeck); Weissensse → Weissensee; "suspected between three points" → asılı (suspended); implatology → implantoloji; "Media Nasal Wall" → Medial; "sective broken" → selektif olarak; "columella bas" → taban; "protection" → projeksiyon (bağlam); Addson-Brown → Adson-Brown; batton → batten; ikinci "anosmia" → koku agnozisi (olfaktör agnozi).
@@ -77,6 +78,9 @@
 - Bölüm 7: "Eksternal Rinoplasti Yaklaşımıyla Yapısal Greftleme"; Bölüm 8: "Endonazal Uç Rinoplastisi Yaklaşımları ve Teknikleri".
 - ULC/LLC kısaltmaları kaynaktaki gibi (ilk geçişte açılım); sütür kalınlıkları "6.0" → "6-0" (Türkçe sütür yazımı; kaynakta bazen 5–0).
 - Kaynak notu: Bishop-Harmen → Bishop-Harmon (Bölüm 7).
+
+## Bölüm 9 notları
+- Bölüm 9: "Alar Küçültme ve Şekillendirme". Bu bölümde atıf numaraları Calibri 7 pt (extract2 bunları üst simge sayar); şekil içindeki boş madde işaretleri öğe olarak alınmaz.
 
 ## Teknik notlar
 - extract2.py: Gulliver 6–7,5 pt = kaynakça girdisi ('ref'), gövde sayfalarında da karakter karakter aynen çizilir (karışık sayfalar için). Ligatür bölünmeleri ("super fi cial") ve küçük harf kerning bölünmeleri ("r hinoplasty") temizlenir.
