@@ -1429,6 +1429,86 @@
    "source": "ptotic",
    "target": "ptotik",
    "notes": "Bölüm 10"
+  },
+  {
+   "source": "cleft lip and palate",
+   "target": "yarık dudak ve damak",
+   "notes": "Bölüm 13"
+  },
+  {
+   "source": "lateral crural steal",
+   "target": "lateral krural çalma",
+   "notes": "Bölüm 13"
+  },
+  {
+   "source": "triple-flap repair",
+   "target": "üçlü flep onarımı",
+   "notes": "Bölüm 13"
+  },
+  {
+   "source": "Lindemann fraise",
+   "target": "Lindemann frezi",
+   "notes": "Bölüm 13"
+  },
+  {
+   "source": "slanted nose",
+   "target": "eğik burun",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "central element",
+   "target": "santral eleman",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "buttress",
+   "target": "payanda",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "naso-orbito-ethmoid fracture",
+   "target": "naso-orbito-etmoid kırık",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "telecanthus",
+   "target": "telekantus",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "rhinoliquorrhea",
+   "target": "rinolikore",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "greenstick fracture",
+   "target": "yeşil ağaç kırığı",
+   "notes": "Bölüm 14"
+  },
+  {
+   "source": "internal splint",
+   "target": "iç atel",
+   "notes": "Bölüm 15"
+  },
+  {
+   "source": "external dressing",
+   "target": "dış pansuman",
+   "notes": "Bölüm 15"
+  },
+  {
+   "source": "synechia",
+   "target": "sineşi",
+   "notes": "Bölüm 15"
+  },
+  {
+   "source": "supraturbinal window",
+   "target": "supratürbinal pencere",
+   "notes": "Bölüm 15"
+  },
+  {
+   "source": "mucociliary clearance",
+   "target": "mukosiliyer klirens",
+   "notes": "Bölüm 15"
   }
  ]
 }
