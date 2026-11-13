@@ -86,3 +86,22 @@
 - extract2.py: Gulliver 6–7,5 pt = kaynakça girdisi ('ref'), gövde sayfalarında da karakter karakter aynen çizilir (karışık sayfalar için). Ligatür bölünmeleri ("super fi cial") ve küçük harf kerning bölünmeleri ("r hinoplasty") temizlenir.
 - extract2.py: x_tolerance=1 bazı kelimeleri böler ("techniqu e", "f orceps", "2 3-year-old", "camou fl age"); satır sonu tirelerinde bileşik kelimeler birleşir ("sideto-side"). Çevirmen bunları kaynak hatası saymamalı.
 - layout2.py: gövde DejaVu Serif Condensed 8,7 pt, Türkçe hece bölme (yumuşak tire), başlık/altyazı Carlito; kaynakça sayfaları karakter karakter yeniden çizilir, yalnız "References" → "Kaynaklar".
+
+## Bölüm 10 notları
+- Bölüm 10: "Eğri Burun". deviated nose = eğri burun; twisted nose/dorsum = burkulmuş burun/sırt; crooked nose = çarpık burun. "one year postoperatively" → "Postoperatif 1. yıl"; "eighteen months" → "Postoperatif 18. ay".
+- s. 183 ve s. 188'de yan yana iki altyazı tek blok çıktı; layout.json'da elle bölündü (p183_cap1b, p188_cap1b). s. 206 kaynakta boş sayfa.
+- Kaynak notu: "persistent defection" → deviasyon [kaynakta: defection].
+- 2026-11-13: Bölüm 10 (s. 179–206) ana oturumda ≈ 0,07M token. GitHub kaydı artık yalnız en sonda yapılacak (kullanıcı isteği). Sonraki: Bölüm 11 (PDF s. 207–222).
+
+## Bölüm 11 notları
+- Bölüm 11: "Fonksiyonel Gergin Burun, Aşırı Projekte Burun". tension nose = gergin burun; overprojected = aşırı projekte; delivery yaklaşımı; K-stone = keystone (K-stone); Ruben's osteotome → Rubin osteotomu; ship's bow = gemi pruvası; low-to-low = alçaktan alçağa.
+- Bu bölümde SymbolMT madde işaretleri "(cid:0)" paragraf içine karışıyor → çeviride "\n• " ile listeye çevrildi; s. 210'daki dört işaret i018'e ikinci parça olarak eklenmişti → layout.json'da o çerçeve ve seg silindi.
+- Argo Bold 10 satır içi başlıklar (Low-to-Low Osteotomy vb.) **kalın** yazıldı. Kaynak notu: "projects it from injury" → korur [kaynakta: projects].
+- layout2.py düzeltmesi (2026-11-13): yumuşak tireli kelime bir etiketin (<i>, <sup>, **) hemen yanındaysa reportlab boşluğu düşürüyordu ("sarkmasınaptozis"). Etiket komşusu kelimeler artık hecelenmiyor; Bölüm 1–10 yeniden oluşturuldu (harf sayıları aynı).
+- 2026-11-13: Bölüm 11 (s. 207–222) ana oturumda ≈ 0,08M token. Sonraki: Bölüm 12 (PDF s. 223–238).
+
+## Bölüm 12 notları
+- Bölüm 12: "Semer Burun—Nedenler ve Patogenez, Yaklaşımlar ve Operatif Teknikler, Burunda Doku Replasmanının İlkeleri". hidden columella = gizli kolumella; ballooning = balonlaşma fenomeni; butterfly graft = kelebek greft; Turkish delight = Türk lokumu; diced cartilage = küp (doğranmış) kıkırdak; balanced graft = dengeli greft.
+- Kaynak notları: polytretrafluoroethylene → politetrafloroetilen; gözenek "100 to 150 mm" → μm [kaynakta: mm]; "diced cartilage in facial" → fasya. Kaynakta kalan, düzeltilmeyen: kaburga kıkırdağı için "4- to 5-mm skin incision" (muhtemelen cm) — 4–5 mm bırakıldı, kullanıcıya bildirildi.
+- checkfit.py: her öğenin son harflerinin çıktı PDF'inde (sütun sütun) bulunup bulunmadığını denetler; sütun/hece bölünmesi yanlış alarm verebilir.
+- 2026-11-13: Bölüm 12 (s. 223–238) ana oturumda ≈ 0,09M token. Sonraki: Bölüm 13 (PDF s. 239–246).
