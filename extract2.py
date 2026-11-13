@@ -31,8 +31,8 @@ def ROLE(w, top):
     if 'Argo' in f and abs(s - 9) < .3: return 'box'
     if 'Argo' in f and col4(w) and s < 10: return 'label'
     if 'Argo' in f and s < 8.5: return 'caption'
-    if 'Gulliver' in f and 6 <= s < 7.5: return 'ref'      # reference entries: kept as in the source
-    if 'Gulliver' in f and s < 6: return 'sup'
+    if 'Gulliver' in f and 6.2 <= s < 6.8: return 'ref'      # reference entries: kept as in the source
+    if 'Gulliver' in f and (s < 6 or 6.8 <= s < 7.5): return 'sup'
     return 'body'
 
 BOLD = lambda f: 'Bold' in f
@@ -252,6 +252,10 @@ def main(pdf_path, first, last, out):
                     start = {'kind': 'li', 'indent': False}
                 elif cur and cur['kind'] == 'li' and 8 < indent < 12.5:
                     start = None
+                elif (cur and cur['kind'] in ('p', 'li') and prev is not None and not new_frame and prev['role'] == 'body'
+                      and prev['x1'] >= cx1 - 12 and gap < 4 and not re.match(r'\d+[a-z]?\.$', ws[0]['text'])
+                      and not re.sub(r'<sup>[^<]*</sup>|<[^>]+>|\*\*', '', join_words(prev['words'])).rstrip().endswith(('.', '!', '?', ':', '”', '.)'))):
+                    start = None          # previous line is full width: hanging-indent continuation, not a new paragraph
                 elif 12.5 <= indent < 20:
                     start = {'kind': 'p', 'indent': True}
                 elif cur is None or cur['kind'] not in ('p',):

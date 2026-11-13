@@ -218,7 +218,7 @@ def draw_page(c, pn, L, T, parts, plpage):
             c.setFont('Serif', ch['size']); c.drawString(ch['matrix'][4], ch['matrix'][5], ch['text'])
     # reference entries on mixed pages: redrawn char by char, unchanged
     for ch in plpage.chars:
-        if 'Gulliver' in ch['fontname'] and 6 <= ch['size'] < 7.5:
+        if 'Gulliver' in ch['fontname'] and 6.2 <= ch['size'] < 6.8:
             c.setFillColor(black); c.setFont('Serif', ch['size']); c.drawString(ch['matrix'][4], ch['matrix'][5], ch['text'])
     # running head: bold parts (page number) kept, medium parts translated
     for r in info['runhead']:
