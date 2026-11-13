@@ -53,10 +53,15 @@ def hyph_word(w):
 
 def hyphenate(t):
     out, depth = [], 0
-    for tok in re.split(r'(<[^>]+>|\(|\)|[^\W\d_]+)', t):
+    toks = re.split(r'(<[^>]+>|\(|\)|[^\W\d_]+)', t)
+    for j, tok in enumerate(toks):
         if tok == '(': depth += 1
         elif tok == ')': depth = max(0, depth - 1)
-        if tok and re.fullmatch(r'[^\W\d_]+', tok) and depth == 0: tok = hyph_word(tok)
+        # reportlab drops/doubles the space next to a tag when the adjacent word has soft hyphens
+        nxt = ''.join(toks[j + 1:j + 4])
+        prv = ''.join(toks[max(0, j - 3):j])
+        near_tag = re.match(r'[^\w<*]*(<|\*\*)', nxt) or re.search(r'(>|\*\*)[^\w>*]*$', prv)
+        if tok and re.fullmatch(r'[^\W\d_]+', tok) and depth == 0 and not near_tag: tok = hyph_word(tok)
         out.append(tok)
     return ''.join(out)
 TEXT_OPS = {b'Tj', b'TJ', b"'", b'"'}
