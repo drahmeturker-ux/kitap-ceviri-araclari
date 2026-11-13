@@ -1015,6 +1015,139 @@
    "category": "anatomy",
    "aliases": [],
    "notes": ""
+  },
+  {
+   "source": "body dysmorphic disorder",
+   "target": "beden dismorfik bozukluğu",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tip recoil",
+   "target": "uç geri yaylanması",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "informed consent",
+   "target": "aydınlatılmış onam",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "eyebrow-tip line",
+   "target": "kaş-uç çizgisi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "infratip triangle",
+   "target": "infratip üçgen",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bossing",
+   "target": "bossing (düğüm benzeri çıkıntı)",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "controlled hypotension",
+   "target": "kontrollü hipotansiyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "intravenous sedation",
+   "target": "intravenöz sedasyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Angle class II malocclusion",
+   "target": "Angle sınıf II maloklüzyon",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "standard photographic views",
+   "target": "standart fotoğraf pozisyonları",
+   "category": "phrase",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "extracorporeal septum correction",
+   "target": "ekstrakorporeal septum düzeltmesi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "computational fluid dynamics",
+   "target": "hesaplamalı akışkanlar dinamiği",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "swinging door",
+   "target": "sallanan kapı",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "isthmus nasi",
+   "target": "isthmus nasi",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "quadrangular plate",
+   "target": "kuadrangüler plak",
+   "category": "anatomy",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "scoring",
+   "target": "çizme (scoring)",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "morselization",
+   "target": "morselizasyon",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "Doyle splint",
+   "target": "Doyle ateli",
+   "category": "material",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "tension septum",
+   "target": "gergin septum",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
   }
  ]
 }
