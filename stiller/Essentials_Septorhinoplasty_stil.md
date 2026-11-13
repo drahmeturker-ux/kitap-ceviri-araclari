@@ -44,6 +44,8 @@
 
 - 2026-11-12 (aynı oturum): Bölüm 2 (PDF s. 69–94; s. 93 karışık gövde+kaynakça, s. 94 kaynakça) çevrildi; 2 alt ajan (~200k token) + ana oturum (~120k) ≈ 0,32M token. Sonraki: Bölüm 3 (PDF s. 95–104).
 - 2026-11-12 (aynı oturum): Bölüm 3 (s. 95–104) ve Bölüm 4 (s. 105–116) ana oturumda (alt ajansız) çevrildi; ikisi birlikte ≈ 0,25M token. Sonraki: Bölüm 5 (PDF s. 117–134).
+- 2026-11-13: Bölüm 5 (s. 117–134) 2 alt ajanla (~185k) + ana oturum (~90k) ≈ 0,28M token. Sonraki: Bölüm 6 (PDF s. 135–142).
+- 2026-11-13: Bölüm 6 (s. 135–142) ana oturumda ≈ 0,06M token. Sonraki: Bölüm 7 (PDF s. 143–156).
 
 ## Bölüm 1'de bulunan kaynak hataları ([kaynakta: …] notlu)
 - Berhard → Bernhard (von Langenbeck); Weissensse → Weissensee; "suspected between three points" → asılı (suspended); implatology → implantoloji; "Media Nasal Wall" → Medial; "sective broken" → selektif olarak; "columella bas" → taban; "protection" → projeksiyon (bağlam); Addson-Brown → Adson-Brown; batton → batten; ikinci "anosmia" → koku agnozisi (olfaktör agnozi).
@@ -61,6 +63,14 @@
 - Bölüm 4 "Surgical consequence" kutu benzeri italik cümleler → "Cerrahi sonuç: …" italik.
 - Kaynak notları: Villendorf → Willendorf; Boticelli → Botticelli; "nasal bones about the frontal bone" → abut (birleşir); "Milkrophon" → Mikrofon; Şekil 4.15 altyazısında cümle iki kez yinelenmiş (bir kez çevrildi).
 - Yan yana iki/üç altyazı tek blok olarak çıkabiliyor (s. 108): layout.json'da elle bölündü (p108_cap1b). s. 96'daki iki sütuna yayılan epigraf da elle iki parçaya bölündü.
+
+## Bölüm 5 notları
+- Bölüm 5: "Preoperatif Yönetim". Kaynak notları: "a concave soft-tissue profile signifies Angle class II" → konveks; "crhinoplastic" → rinoplastik.
+- Bu bölümde üst simge atıflar 7,0 pt (önceki bölümlerde 5,2 pt); kaynakça 6,5 pt. extract2/layout2 eşikleri: kaynakça 6,2–6,8 pt, üst simge <6 veya 6,8–7,5 pt.
+- Asılı girintili numaralı listeler ("1. Palpate…" devam satırları girintili) artık satır satır ayrı paragraf olmuyor: önceki satır tam genişlikteyse ve noktalama ile bitmiyorsa devam satırı sayılır. Liste numaralarının önüne satır sonu eklenir.
+
+## Bölüm 6 notları
+- Bölüm 6: "Modern Septoplastinin İlkeleri". CFD kısaltması kaynaktaki gibi.
 
 ## Teknik notlar
 - extract2.py: Gulliver 6–7,5 pt = kaynakça girdisi ('ref'), gövde sayfalarında da karakter karakter aynen çizilir (karışık sayfalar için). Ligatür bölünmeleri ("super fi cial") ve küçük harf kerning bölünmeleri ("r hinoplasty") temizlenir.
