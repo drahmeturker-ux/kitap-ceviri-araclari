@@ -33,6 +33,7 @@ def ROLE(w, top):
     if 'Argo' in f and s < 8.5: return 'caption'
     if 'Gulliver' in f and 6.2 <= s < 6.8: return 'ref'      # reference entries: kept as in the source
     if 'Gulliver' in f and (s < 6 or 6.8 <= s < 7.5): return 'sup'
+    if 'Calibri' in f and s < 7.5: return 'sup'                 # some chapters set citation numbers in Calibri 7 pt
     return 'body'
 
 BOLD = lambda f: 'Bold' in f
@@ -276,6 +277,11 @@ def main(pdf_path, first, last, out):
         pages[pn] = info
     for it in items:
         it['src'] = clean(it['src'])
+    empty = {it['id'] for it in items if not re.sub(r'<[^>]+>|\*\*|\s', '', it['src'])}
+    items = [it for it in items if it['id'] not in empty]       # bullets drawn inside figures etc.
+    for info in pages.values():
+        for fr in info['frames']: fr['items'] = [x for x in fr['items'] if x[0] not in empty]
+        info['items'] = [x for x in info['items'] if x not in empty]
     with open(f'{out}/layout.json', 'w') as f:
         json.dump({'pages': pages, 'items': items}, f, ensure_ascii=False, indent=1)
     with open(f'{out}/source.md', 'w') as f:
