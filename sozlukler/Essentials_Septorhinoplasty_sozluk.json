@@ -1344,6 +1344,91 @@
    "category": "medical",
    "aliases": [],
    "notes": ""
+  },
+  {
+   "source": "twisted nose",
+   "target": "burkulmuş burun",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "crooked nose",
+   "target": "çarpık burun",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "brow-tip line",
+   "target": "kaş-uç çizgisi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "intermediate osteotomy",
+   "target": "ara osteotomi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "camouflage graft",
+   "target": "kamuflaj grefti",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "sidewall spreading suture",
+   "target": "yan duvar genişletici sütür",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "clocking suture",
+   "target": "saat yönü (clocking) sütürü",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "flaring suture",
+   "target": "genişletici (flaring) sütür",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "rocker deformity",
+   "target": "sallanma deformitesi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "open roof deformity",
+   "target": "açık çatı deformitesi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "inverted-V deformity",
+   "target": "ters V deformitesi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "hourglass deformity",
+   "target": "kum saati deformitesi",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "dorsal strut",
+   "target": "dorsal strut",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "shave excision",
+   "target": "tıraşlama eksizyonu",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "septocolumellar suture",
+   "target": "septokolumellar sütür",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "hanging columella",
+   "target": "sarkık kolumella",
+   "notes": "Bölüm 10"
+  },
+  {
+   "source": "ptotic",
+   "target": "ptotik",
+   "notes": "Bölüm 10"
   }
  ]
 }
