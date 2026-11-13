@@ -1148,6 +1148,153 @@
    "category": "medical",
    "aliases": [],
    "notes": ""
+  },
+  {
+   "source": "extended spreader graft",
+   "target": "uzatılmış spreader greft",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "caudal septal extension graft",
+   "target": "kaudal septal uzatma grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "caudal septal replacement graft",
+   "target": "kaudal septal replasman grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "lateral crural strut graft",
+   "target": "lateral krural strut grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "shield tip graft",
+   "target": "kalkan uç grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar rim graft",
+   "target": "alar kenar (rim) grefti",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "pollybeak",
+   "target": "papağan gagası",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "delivery flap",
+   "target": "delivery flebi (dışarı alma flebi)",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "double-dome unit",
+   "target": "çift dom ünitesi",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "single-dome suture",
+   "target": "tek dom sütürü",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "interdomal suture",
+   "target": "interdomal sütür",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "medial crural overlay",
+   "target": "medial krural overlay",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "dome division",
+   "target": "dom bölme",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "cephalic trim",
+   "target": "sefalik kesim",
+   "category": "procedure",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "boxy tip",
+   "target": "kutu biçimli uç",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bulbous tip",
+   "target": "bulböz uç",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bifid tip",
+   "target": "bifid uç",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "trapezoid tip",
+   "target": "trapezoid uç",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "bossae",
+   "target": "bossa",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "alar retraction",
+   "target": "alar retraksiyon",
+   "category": "medical",
+   "aliases": [],
+   "notes": ""
+  },
+  {
+   "source": "rib cartilage",
+   "target": "kaburga kıkırdağı",
+   "category": "material",
+   "aliases": [],
+   "notes": ""
   }
  ]
 }
