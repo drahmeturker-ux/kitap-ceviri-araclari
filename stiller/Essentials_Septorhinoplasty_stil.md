@@ -105,3 +105,22 @@
 - Kaynak notları: polytretrafluoroethylene → politetrafloroetilen; gözenek "100 to 150 mm" → μm [kaynakta: mm]; "diced cartilage in facial" → fasya. Kaynakta kalan, düzeltilmeyen: kaburga kıkırdağı için "4- to 5-mm skin incision" (muhtemelen cm) — 4–5 mm bırakıldı, kullanıcıya bildirildi.
 - checkfit.py: her öğenin son harflerinin çıktı PDF'inde (sütun sütun) bulunup bulunmadığını denetler; sütun/hece bölünmesi yanlış alarm verebilir.
 - 2026-11-13: Bölüm 12 (s. 223–238) ana oturumda ≈ 0,09M token. Sonraki: Bölüm 13 (PDF s. 239–246).
+
+## Bölüm 13 notları
+- Bölüm 13: "Yarık Dudak Onarımı Sonrası Rinoplasti". CLP, LLC, ULC, ANS, DCF kaynaktaki gibi; lateral crural steal = lateral krural çalma; fraise = frez; triple-flap = üçlü flep; difficult septum = “zor septum”.
+- Satır içi numaralı listelerde numaradan sonra bölünmez boşluk (1. ) kullanıldı; sütun sonunda numaranın yalnız kalması önlenir.
+- Kaynak notu: keystone çapraz sütüründe "upper edge of the LLC of the opposite left side" → ULC [kaynakta: LLC].
+- 2026-11-13: Bölüm 13 (s. 239–246) zamanlanmış görevle ana oturumda ≈ 0,05M token. Sonraki: Bölüm 14 (PDF s. 247–260).
+
+## Bölüm 14 notları
+- Bölüm 14: "Burun Travması". slanted nose = eğik burun; central element = santral eleman; buttress = payanda; Rhinoliquorrhoe = rinolikore; telecanthus = telekantus; Simmen tip I–IV; Becker ve Austermann sınıflandırması.
+- Tablo 14.1, Tablo 14.2 ve Şekil 14.19 akış şeması yeni overlay.py ile çizildi: layout.json'dan tablo "caption"ları silindi, p255_labels boş dizeler; overlay.json satır satır Türkçe metni orijinal konumlara (ortalanmış kutu metinleri) yazar. Akış: layout2 → out0.pdf → overlay.py draw → out.pdf.
+- i032'nin s. 255'teki ikinci parçası aslında akış şemasındaki "Nasal Trauma" kutusuydu → çerçeve ve seg silindi.
+- Kaynak notları: "supply of cerebrospinal fluid" → BOS sızıntısı [kaynakta: supply]; "hydrogen superoxide" → hidrojen peroksit; "pussy dacryocystitis" → pürülan.
+- 2026-11-13: Bölüm 14 (s. 247–260) ≈ 0,11M token. Sonraki: Bölüm 15 (PDF s. 261–273, son bölüm).
+
+## Bölüm 15 notları
+- Bölüm 15: "Postoperatif Bakım ve Yönetim". Management = yönetim; pack = tampon; splint = atel; dressing = pansuman; synechia = sineşi.
+- s. 262'de yan yana iki altyazı (Şekil 15.2/15.3) tek blok çıktı → p262_cap1b ile bölündü; Şekil 15.1 altyazısının sağ sınırı 270'e çekildi (üst üste binmeyi önlemek için). s. 271–273 kaynakta boş.
+- Satır içi madde işaretleri (cid:0) → "\n• ".
+- 2026-11-13: Bölüm 15 (s. 261–273) ≈ 0,07M token. KİTAP TAMAMLANDI (15/15 bölüm).
